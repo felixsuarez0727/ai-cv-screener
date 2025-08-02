@@ -1,57 +1,57 @@
 # AI CV Screener 🚀
 
-Un sistema completo de screening de CVs con IA que utiliza un pipeline RAG (Retrieval-Augmented Generation) para responder preguntas sobre candidatos basándose únicamente en la información de sus CVs.
+A complete AI-powered CV screening system that uses a RAG (Retrieval-Augmented Generation) pipeline to answer questions about candidates based solely on information from their CVs.
 
-## ✨ Características
+## ✨ Features
 
-- **Generación automática de CVs**: Crea 30 CVs únicos y realistas en formato PDF
-- **Pipeline RAG completo**: Extrae, procesa y almacena información de CVs en una base de datos vectorial
-- **Chat inteligente**: Interfaz de chat que responde preguntas basándose únicamente en los CVs
-- **Búsqueda semántica**: Encuentra información relevante usando embeddings
-- **Interfaz moderna**: Frontend React con diseño responsive y UX optimizada
-- **APIs gratuitas**: Utiliza Google AI Studio, OpenAI o OpenRouter según disponibilidad
+- **Automatic CV Generation**: Creates 30 unique and realistic CVs in PDF format
+- **Complete RAG Pipeline**: Extracts, processes, and stores CV information in a vector database
+- **Intelligent Chat**: Chat interface that answers questions based solely on the CVs
+- **Semantic Search**: Finds relevant information using embeddings
+- **Modern Interface**: React frontend with responsive design and optimized UX
+- **Free APIs**: Uses Google AI Studio, OpenAI, or OpenRouter based on availability
 
-## 🏗️ Arquitectura
+## 🏗️ Architecture
 
 ```
 ai-cv-screener/
-├── cv-generator/          # Generador de CVs falsos
-├── backend/              # API con pipeline RAG
-├── frontend/             # Interfaz de chat React
-├── cvs/                  # CVs generados (PDFs)
-└── chroma_db/           # Base de datos vectorial
+├── cv-generator/          # Fake CV generator
+├── backend/              # API with RAG pipeline
+├── frontend/             # React chat interface
+├── cvs/                  # Generated CVs (PDFs)
+└── chroma_db/           # Vector database
 ```
 
-## 🚀 Instalación Rápida
+## 🚀 Quick Installation
 
-### 1. Clonar y configurar
+### 1. Clone and configure
 
 ```bash
 git clone <repository-url>
 cd ai-cv-screener
 ```
 
-### 2. Configurar variables de entorno
+### 2. Configure environment variables
 
 ```bash
 cp env.example .env
 ```
 
-Edita `.env` y añade tus API keys:
+Edit `.env` and add your API keys:
 ```env
-# Usa al menos una de estas opciones:
-GOOGLE_AI_API_KEY=tu_google_ai_key
-OPENAI_API_KEY=tu_openai_key
-OPENROUTER_API_KEY=tu_openrouter_key
+# Use at least one of these options:
+GOOGLE_AI_API_KEY=your_google_ai_key
+OPENAI_API_KEY=your_openai_key
+OPENROUTER_API_KEY=your_openrouter_key
 ```
 
-### 3. Instalar dependencias y generar CVs
+### 3. Install dependencies and generate CVs
 
 ```bash
 npm run setup
 ```
 
-### 4. Ejecutar el sistema
+### 4. Run the system
 
 ```bash
 # Terminal 1: Backend
@@ -61,105 +61,105 @@ npm run start-backend
 npm run start-frontend
 ```
 
-O ejecutar ambos simultáneamente:
+Or run both simultaneously:
 ```bash
 npm run dev
 ```
 
-## 📋 Requisitos Previos
+## 📋 Prerequisites
 
 - **Node.js** 18+ 
-- **npm** o **yarn**
-- **API Key** de al menos uno de estos servicios:
-  - [Google AI Studio](https://aistudio.google.com/apikey) (Recomendado - Gratuito)
+- **npm** or **yarn**
+- **API Key** from at least one of these services:
+  - [Google AI Studio](https://aistudio.google.com/apikey) (Recommended - Free)
   - [OpenAI](https://platform.openai.com/api-keys)
   - [OpenRouter](https://openrouter.ai/keys)
 
-## 🔧 Configuración Detallada
+## 🔧 Detailed Configuration
 
-### Variables de Entorno
+### Environment Variables
 
 ```env
-# API Keys (usa al menos una)
+# API Keys (use at least one)
 GOOGLE_AI_API_KEY=your_google_ai_api_key
 OPENAI_API_KEY=your_openai_api_key
 OPENROUTER_API_KEY=your_openrouter_api_key
 
-# Configuración del servidor
+# Server configuration
 PORT=3001
 NODE_ENV=development
 
-# Base de datos vectorial
+# Vector database
 CHROMA_DB_PATH=./chroma_db
 
 # Frontend
 REACT_APP_API_URL=http://localhost:3001
 
-# Generación de CVs
+# CV generation
 CV_OUTPUT_DIR=./cvs
 CV_COUNT=30
 ```
 
-### Scripts Disponibles
+### Available Scripts
 
 ```bash
-# Instalación completa
+# Complete installation
 npm run setup
 
-# Generar CVs
+# Generate CVs
 npm run generate-cvs
 
-# Ejecutar backend
+# Run backend
 npm run start-backend
 
-# Ejecutar frontend
+# Run frontend
 npm run start-frontend
 
-# Ejecutar ambos
+# Run both
 npm run dev
 
-# Construir frontend
+# Build frontend
 npm run build
 ```
 
-## 🎯 Uso del Sistema
+## 🎯 System Usage
 
-### 1. Acceder a la aplicación
+### 1. Access the application
 
-Abre tu navegador y ve a: `http://localhost:3000`
+Open your browser and go to: `http://localhost:3000`
 
-### 2. Ejemplos de preguntas
+### 2. Example questions
 
-El sistema puede responder preguntas como:
+The system can answer questions like:
 
-- **"¿Quién tiene experiencia con Python?"**
-- **"¿Qué candidatos se graduaron de UPC?"**
-- **"Resume el perfil de [nombre del candidato]"**
-- **"¿Quién habla español e inglés?"**
-- **"Muéstrame desarrolladores con más de 3 años de experiencia"**
-- **"¿Quién tiene certificaciones en AWS?"**
-- **"Busca candidatos con experiencia en React"**
+- **"Who has experience with Python?"**
+- **"What candidates graduated from UPC?"**
+- **"Summarize the profile of [candidate name]"**
+- **"Who speaks Spanish and English?"**
+- **"Show me developers with more than 3 years of experience"**
+- **"Who has AWS certifications?"**
+- **"Search for candidates with React experience"**
 
-### 3. Interpretar respuestas
+### 3. Interpreting responses
 
-- Las respuestas se basan únicamente en los CVs disponibles
-- Se muestran las fuentes utilizadas (nombres de candidatos)
-- Si no hay información disponible, el sistema lo indicará claramente
+- Responses are based solely on available CVs
+- Sources used are shown (candidate names)
+- If no information is available, the system will clearly indicate this
 
-## 🏛️ Estructura del Proyecto
+## 🏛️ Project Structure
 
 ### Backend (`/backend`)
 
 ```
 backend/
-├── server.js              # Servidor Express principal
+├── server.js              # Main Express server
 ├── routes/
-│   └── chat.js           # Endpoints de chat
+│   └── chat.js           # Chat endpoints
 ├── services/
-│   ├── pdfProcessor.js   # Procesamiento de PDFs
-│   ├── vectorStore.js    # Base de datos vectorial
-│   └── llmService.js     # Integración con LLM
-└── data/                 # Datos procesados
+│   ├── pdfProcessor.js   # PDF processing
+│   ├── vectorStore.js    # Vector database
+│   └── llmService.js     # LLM integration
+└── data/                 # Processed data
 ```
 
 ### Frontend (`/frontend`)
@@ -178,41 +178,41 @@ frontend/
 └── public/
 ```
 
-### Generador de CVs (`/cv-generator`)
+### CV Generator (`/cv-generator`)
 
 ```
 cv-generator/
-├── generateCVs.js        # Script principal
-├── generated-cvs/        # CVs generados
-│   ├── CV_*.pdf         # PDFs individuales
-│   └── cv_data.json     # Datos estructurados
+├── generateCVs.js        # Main script
+├── generated-cvs/        # Generated CVs
+│   ├── CV_*.pdf         # Individual PDFs
+│   └── cv_data.json     # Structured data
 └── package.json
 ```
 
-## 🔍 Pipeline RAG
+## 🔍 RAG Pipeline
 
-### 1. Extracción de Datos
-- Los CVs se procesan y extraen en texto estructurado
-- Se crean chunks de texto para mejor recuperación
+### 1. Data Extraction
+- CVs are processed and extracted as structured text
+- Text chunks are created for better retrieval
 
 ### 2. Embeddings
-- Cada chunk se convierte en embeddings usando OpenAI
-- Se almacenan en ChromaDB (base vectorial local)
+- Each chunk is converted to embeddings using OpenAI
+- Stored in ChromaDB (local vector database)
 
 ### 3. Retrieval
-- Las preguntas se convierten en embeddings
-- Se buscan los chunks más similares
+- Questions are converted to embeddings
+- Most similar chunks are searched
 
 ### 4. Generation
-- Los chunks relevantes se envían al LLM
-- Se genera una respuesta basada únicamente en esa información
+- Relevant chunks are sent to the LLM
+- A response is generated based solely on that information
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 ### Backend
 - **Node.js** + **Express**
-- **LangChain** (pipeline RAG)
-- **ChromaDB** (base vectorial)
+- **LangChain** (RAG pipeline)
+- **ChromaDB** (vector database)
 - **OpenAI Embeddings**
 - **Google AI / OpenAI / OpenRouter** (LLM)
 
@@ -220,78 +220,78 @@ cv-generator/
 - **React** 18
 - **Tailwind CSS**
 - **Axios** (HTTP client)
-- **Lucide React** (iconos)
+- **Lucide React** (icons)
 
-### Generación de CVs
-- **jsPDF** (generación de PDFs)
-- **Faker.js** (datos falsos)
-- **PDF-parse** (extracción de texto)
+### CV Generation
+- **jsPDF** (PDF generation)
+- **Faker.js** (fake data)
+- **PDF-parse** (text extraction)
 
-## 🐛 Solución de Problemas
+## 🐛 Troubleshooting
 
-### Error de conexión con el backend
+### Backend connection error
 ```bash
-# Verificar que el backend esté ejecutándose
+# Verify backend is running
 curl http://localhost:3001/api/health
 ```
 
-### Error de API key
+### API key error
 ```bash
-# Verificar variables de entorno
+# Verify environment variables
 echo $GOOGLE_AI_API_KEY
 echo $OPENAI_API_KEY
 ```
 
-### Error de dependencias
+### Dependency error
 ```bash
-# Reinstalar dependencias
+# Reinstall dependencies
 rm -rf node_modules package-lock.json
 npm install
 ```
 
-### Limpiar datos
+### Clean data
 ```bash
-# Limpiar CVs y base vectorial
+# Clean CVs and vector database
 rm -rf cv-generator/generated-cvs
 rm -rf backend/data
 rm -rf chroma_db
 ```
 
-## 📊 Rendimiento
+## 📊 Performance
 
-- **Generación de CVs**: ~30 segundos para 30 CVs
-- **Procesamiento RAG**: ~10 segundos para inicializar
-- **Respuestas de chat**: 2-5 segundos por pregunta
-- **Base vectorial**: Soporta hasta 10,000 documentos
+- **CV Generation**: ~30 seconds for 30 CVs
+- **RAG Processing**: ~10 seconds to initialize
+- **Chat responses**: 2-5 seconds per question
+- **Vector database**: Supports up to 10,000 documents
 
-## 🔒 Seguridad
+## 🔒 Security
 
-- No se almacenan datos personales reales
-- Los CVs generados son completamente ficticios
-- Las API keys se manejan de forma segura
-- CORS configurado para desarrollo local
+- No real personal data is stored
+- Generated CVs are completely fictional
+- API keys are handled securely
+- CORS configured for local development
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+This project is under the MIT License. See the `LICENSE` file for more details.
 
-## 🆘 Soporte
+## 🆘 Support
 
-Si tienes problemas o preguntas:
+If you have problems or questions:
 
-1. Revisa la sección de solución de problemas
-2. Verifica que todas las dependencias estén instaladas
-3. Asegúrate de tener una API key válida configurada
-4. Abre un issue en el repositorio
+1. Check the troubleshooting section
+2. Verify all dependencies are installed
+3. Make sure you have a valid API key configured
+4. Open an issue in the repository
 
 ---
 
-**¡Disfruta usando el AI CV Screener! 🎉**
+**Enjoy using the AI CV Screener! 🎉**

@@ -10,14 +10,18 @@ const InputForm = ({ onSendMessage, isLoading }) => {
   const textareaRef = useRef(null);
 
   const suggestions = [
-    "¿Quién tiene experiencia con Python?",
-    "¿Qué candidatos se graduaron de UPC?",
-    "¿Quién habla español e inglés?",
-    "Muéstrame desarrolladores con más de 3 años de experiencia",
-    "¿Quién tiene certificaciones en AWS?",
-    "Busca candidatos con experiencia en React",
-    "¿Quién tiene experiencia en gestión de proyectos?",
-    "Encuentra candidatos con conocimientos en machine learning"
+    "Who has experience with Python programming?",
+    "Which candidates have worked as Software Engineers?",
+    "Who has experience with React or JavaScript frameworks?",
+    "Find candidates with database experience (SQL, MongoDB, etc.)",
+    "Who has worked with cloud platforms (AWS, Azure, GCP)?",
+    "Which candidates have machine learning or AI experience?",
+    "Find candidates with project management experience",
+    "Who has experience with DevOps or CI/CD tools?",
+    "Which candidates speak multiple languages?",
+    "Find candidates with mobile development experience",
+    "Who has worked in fintech or financial services?",
+    "Which candidates have startup experience?"
   ];
 
   useEffect(() => {
@@ -76,7 +80,7 @@ const InputForm = ({ onSendMessage, isLoading }) => {
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-semibold text-secondary-900 flex items-center gap-2">
                 <Sparkles className="h-4 w-4 text-primary-500" />
-                Sugerencias de preguntas
+                CV Screening Questions
               </h3>
               <button
                 onClick={() => setShowSuggestions(false)}
@@ -150,7 +154,7 @@ const InputForm = ({ onSendMessage, isLoading }) => {
               onKeyPress={handleKeyPress}
               onFocus={() => setIsTyping(true)}
               onBlur={() => setIsTyping(false)}
-              placeholder="Escribe tu pregunta sobre los CVs..."
+              placeholder="Ask about candidates' skills, experience, or background..."
               className={cn(
                 "w-full px-4 py-3 pr-12 border rounded-2xl focus:ring-2 focus:ring-primary-500 focus:border-transparent resize-none transition-all duration-200",
                 "bg-white shadow-soft border-secondary-200",
@@ -203,7 +207,7 @@ const InputForm = ({ onSendMessage, isLoading }) => {
           ) : (
             <Send className="h-5 w-5" />
           )}
-          <span className="hidden sm:inline">Enviar</span>
+          <span className="hidden sm:inline">Send</span>
         </motion.button>
       </motion.form>
 
@@ -233,7 +237,7 @@ const InputForm = ({ onSendMessage, isLoading }) => {
                 transition={{ duration: 0.6, repeat: Infinity, delay: 0.4 }}
               />
             </div>
-            <span>Escribiendo...</span>
+            <span>Typing...</span>
           </motion.div>
         )}
       </AnimatePresence>

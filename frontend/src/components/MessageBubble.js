@@ -51,7 +51,7 @@ const MessageBubble = ({ message }) => {
   };
 
   const formatTime = (timestamp) => {
-    return new Date(timestamp).toLocaleTimeString('es-ES', {
+    return new Date(timestamp).toLocaleTimeString('en-US', {
       hour: '2-digit',
       minute: '2-digit'
     });
@@ -171,7 +171,7 @@ const MessageBubble = ({ message }) => {
                 className="flex items-center space-x-2 text-xs text-secondary-500 hover:text-secondary-700 transition-colors"
               >
                 <FileText className="h-3 w-3" />
-                <span>Fuentes utilizadas ({sources.length})</span>
+                <span>Sources used ({sources.length})</span>
                 {sourcesExpanded ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
               </button>
               
@@ -196,7 +196,7 @@ const MessageBubble = ({ message }) => {
                           {source.cvName}
                         </span>
                         <span className="text-xs text-secondary-500">
-                          {Math.round(source.relevance * 100)}% relevancia
+                          {Math.round(source.relevance * 100)}% relevance
                         </span>
                       </motion.div>
                     ))}

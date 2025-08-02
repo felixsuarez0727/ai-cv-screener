@@ -47,7 +47,7 @@ const Header = ({ isConnected }) => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                Sistema Inteligente de Screening de CVs
+                Intelligent CV Screening System
               </motion.p>
             </div>
           </motion.div>
@@ -76,7 +76,7 @@ const Header = ({ isConnected }) => {
                 )}
               </motion.div>
               <span className="hidden sm:inline">
-                {isConnected ? 'Conectado' : 'Desconectado'}
+                {isConnected ? 'Connected' : 'Disconnected'}
               </span>
             </motion.div>
 

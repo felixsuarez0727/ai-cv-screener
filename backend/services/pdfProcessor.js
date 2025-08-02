@@ -13,7 +13,7 @@ class PDFProcessor {
     fs.ensureDirSync(dataDir);
   }
 
-  createChunks(text, chunkSize = 300, overlap = 50) {
+  createChunks(text, chunkSize = 150, overlap = 20) {
     const chunks = [];
     let start = 0;
     
@@ -59,7 +59,7 @@ class PDFProcessor {
         const cvText = this.createSimpleCVText(cv);
         
         // Create small chunks
-        const chunks = this.createChunks(cvText, 300, 50);
+        const chunks = this.createChunks(cvText, 100, 10);
         
         const processedCV = {
           id: i + 1,

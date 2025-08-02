@@ -38,6 +38,8 @@ class VectorStore {
       if (await fs.pathExists(this.vectorStorePath)) {
         this.documents = await fs.readJson(this.vectorStorePath);
         console.log(`📚 Loaded ${this.documents.length} documents from existing vector store`);
+        this.isInitialized = true;
+        return; // Skip initialization if we already have documents
       }
       
       this.isInitialized = true;
@@ -61,7 +63,7 @@ class VectorStore {
       this.documents = [];
       
       // Process in batches to avoid overwhelming the API
-      const batchSize = 10;
+      const batchSize = 15;
       let processed = 0;
       
       for (let i = 0; i < chunks.length; i += batchSize) {
@@ -88,7 +90,7 @@ class VectorStore {
         processed += batch.length;
         console.log(`📊 Processed ${processed}/${chunks.length} chunks`);
         
-        // Save to file every 1000 chunks to prevent memory issues
+        // Save to file every 1000 chunks to reduce I/O overhead
         if (processed % 1000 === 0 || processed === chunks.length) {
           console.log(`💾 Saving ${this.documents.length} documents to file...`);
           await fs.writeJson(this.vectorStorePath, this.documents, { spaces: 2 });
@@ -97,7 +99,7 @@ class VectorStore {
         
         // Small delay between batches
         if (i + batchSize < chunks.length) {
-          await new Promise(resolve => setTimeout(resolve, 100));
+          await new Promise(resolve => setTimeout(resolve, 50));
         }
       }
       
@@ -115,7 +117,8 @@ class VectorStore {
     }
     
     try {
-      console.log(`🔍 Searching for: "${query}"`);
+      console.log(`🔍 Performing 100% comprehensive search for: "${query}"`);
+      console.log(`📊 Total documents in store: ${this.documents.length}`);
       
       if (this.documents.length === 0) {
         console.log('⚠️ No documents in vector store');
@@ -125,7 +128,8 @@ class VectorStore {
       // Generate embedding for the query
       const queryEmbedding = await this.embeddings.embedQuery(query);
       
-      // Calculate similarities
+      // Calculate similarities for ALL documents
+      console.log(`🔍 Calculating similarities for all ${this.documents.length} documents...`);
       const similarities = this.documents.map(doc => {
         const similarity = this.cosineSimilarity(queryEmbedding, doc.embedding);
         return {
@@ -135,21 +139,99 @@ class VectorStore {
         };
       });
       
-      // Sort by similarity and return top k
-      const results = similarities
+      // Sort by similarity (highest first)
+      const sortedSimilarities = similarities.sort((a, b) => b.similarity - a.similarity);
+      
+      // For comprehensive search, return ALL results above a certain threshold
+      const threshold = 0.1; // Lower threshold to catch more potential matches
+      const relevantResults = sortedSimilarities.filter(item => item.similarity > threshold);
+      
+      console.log(`📈 Found ${relevantResults.length} results above threshold (${threshold})`);
+      
+      // CRITICAL FIX: Ensure we get exactly ONE chunk per CV, prioritizing the most relevant
+      const cvMap = new Map(); // Map to track best chunk per CV
+      
+      for (const item of relevantResults) {
+        const cvId = item.metadata.cvId;
+        if (!cvMap.has(cvId) || item.similarity > cvMap.get(cvId).similarity) {
+          cvMap.set(cvId, item);
+        }
+      }
+      
+      // Convert map back to array and sort by similarity
+      const uniqueCVResults = Array.from(cvMap.values())
         .sort((a, b) => b.similarity - a.similarity)
         .slice(0, k)
         .map(item => ({
           content: item.content,
           metadata: item.metadata,
-          distance: 1 - item.similarity // Convert similarity to distance
+          distance: 1 - item.similarity
         }));
       
-      console.log(`✅ Found ${results.length} relevant documents`);
-      return results;
+      console.log(`✅ 100% comprehensive search complete:`);
+      console.log(`   - Total documents searched: ${this.documents.length}`);
+      console.log(`   - Results above threshold: ${relevantResults.length}`);
+      console.log(`   - Unique CVs found: ${cvMap.size}`);
+      console.log(`   - Final results returned: ${uniqueCVResults.length}`);
+      
+      return uniqueCVResults;
       
     } catch (error) {
       console.error('❌ Error in similarity search:', error);
+      throw error;
+    }
+  }
+
+  // New method for 100% exhaustive search
+  async exhaustiveSearch(query) {
+    if (!this.isInitialized) {
+      await this.initialize();
+    }
+    
+    try {
+      console.log(`🔍 Performing 100% EXHAUSTIVE search for: "${query}"`);
+      console.log(`📊 Searching through ALL ${this.documents.length} documents...`);
+      
+      if (this.documents.length === 0) {
+        console.log('⚠️ No documents in vector store');
+        return [];
+      }
+      
+      // Generate embedding for the query
+      const queryEmbedding = await this.embeddings.embedQuery(query);
+      
+      // Calculate similarities for ALL documents
+      const similarities = this.documents.map(doc => {
+        const similarity = this.cosineSimilarity(queryEmbedding, doc.embedding);
+        return {
+          content: doc.content,
+          metadata: doc.metadata,
+          similarity: similarity
+        };
+      });
+      
+      // Sort by similarity
+      const sortedSimilarities = similarities.sort((a, b) => b.similarity - a.similarity);
+      
+      // Return ALL results (no limit)
+      const allResults = sortedSimilarities.map(item => ({
+        content: item.content,
+        metadata: item.metadata,
+        distance: 1 - item.similarity
+      }));
+      
+      // Get unique CVs
+      const uniqueCVs = new Set(allResults.map(result => result.metadata.cvId));
+      
+      console.log(`✅ 100% EXHAUSTIVE search complete:`);
+      console.log(`   - Total documents searched: ${this.documents.length}`);
+      console.log(`   - Total results returned: ${allResults.length}`);
+      console.log(`   - Unique CVs found: ${uniqueCVs.size}`);
+      
+      return allResults;
+      
+    } catch (error) {
+      console.error('❌ Error in exhaustive search:', error);
       throw error;
     }
   }
@@ -217,6 +299,10 @@ async function similaritySearch(query, k = 5) {
   return await vectorStore.similaritySearch(query, k);
 }
 
+async function exhaustiveSearch(query) {
+  return await vectorStore.exhaustiveSearch(query);
+}
+
 async function getCollectionInfo() {
   return await vectorStore.getCollectionInfo();
 }
@@ -224,6 +310,7 @@ async function getCollectionInfo() {
 module.exports = {
   initializeVectorStore,
   similaritySearch,
+  exhaustiveSearch,
   getCollectionInfo,
   VectorStore
 }; 

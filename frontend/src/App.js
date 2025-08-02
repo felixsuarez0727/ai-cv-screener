@@ -19,7 +19,7 @@ function App() {
       const isHealthy = response.status === 'OK';
       
       if (isHealthy && !isConnected) {
-        toast.success('¡Conectado al servidor!', {
+        toast.success('Connected to server!', {
           icon: '✅',
           duration: 3000,
         });
@@ -36,7 +36,7 @@ function App() {
       setLastConnectionCheck(new Date());
       
       if (wasConnected) {
-        toast.error('Conexión perdida con el servidor', {
+        toast.error('Lost connection to server', {
           icon: '❌',
           duration: 5000,
         });
@@ -89,7 +89,7 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          Conectando con el servidor...
+          Connecting to server...
         </motion.h2>
         
         <motion.p 
@@ -98,7 +98,7 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          Verificando la conexión con el backend
+          Verifying backend connection
         </motion.p>
         
         <motion.div
@@ -158,22 +158,22 @@ function App() {
           </motion.div>
           
           <h2 className="text-2xl font-bold text-error-900 mb-4">
-            Error de Conexión
+            Connection Error
           </h2>
           
           <p className="text-error-700 mb-6 leading-relaxed">
-            No se pudo conectar con el servidor backend. Asegúrate de que el servidor esté ejecutándose en el puerto 3001.
+            Could not connect to the backend server. Make sure the server is running on port 3001.
           </p>
           
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-4 shadow-soft border border-error-200">
               <div className="flex items-center justify-between text-sm">
-                <span className="text-secondary-600">Intentos de conexión:</span>
+                <span className="text-secondary-600">Connection attempts:</span>
                 <span className="font-semibold text-error-600">{connectionAttempts}</span>
               </div>
               {lastConnectionCheck && (
                 <div className="flex items-center justify-between text-sm mt-2">
-                  <span className="text-secondary-600">Último intento:</span>
+                  <span className="text-secondary-600">Last attempt:</span>
                   <span className="text-secondary-500">
                     {lastConnectionCheck.toLocaleTimeString()}
                   </span>
@@ -188,13 +188,13 @@ function App() {
               whileTap={{ scale: 0.98 }}
             >
               <RefreshCw className="h-5 w-5" />
-              <span>Reintentar Conexión</span>
+              <span>Retry Connection</span>
             </motion.button>
             
             <div className="text-xs text-secondary-500 space-y-1">
-              <p>• Verifica que el servidor backend esté ejecutándose</p>
-              <p>• Comprueba que el puerto 3001 esté disponible</p>
-              <p>• Revisa los logs del servidor para más detalles</p>
+              <p>• Verify that the backend server is running</p>
+              <p>• Check that port 3001 is available</p>
+              <p>• Review server logs for more details</p>
             </div>
           </div>
         </motion.div>

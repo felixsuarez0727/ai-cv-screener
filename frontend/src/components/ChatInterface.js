@@ -76,7 +76,7 @@ const ChatInterface = () => {
       const errorMessage = {
         id: Date.now() + 1,
         type: 'error',
-        content: 'Lo siento, hubo un error procesando tu mensaje. Por favor, intenta de nuevo.',
+        content: 'Sorry, there was an error processing your message. Please try again.',
         timestamp: new Date().toISOString()
       };
 
@@ -116,34 +116,64 @@ const ChatInterface = () => {
 
   const exampleQuestions = [
     {
-      question: "¿Quién tiene experiencia con Python?",
+      question: "Who has experience with Python programming?",
       icon: "🐍",
-      category: "Lenguajes"
+      category: "Programming Languages"
     },
     {
-      question: "¿Qué candidatos se graduaron de UPC?",
-      icon: "🎓",
-      category: "Educación"
+      question: "Which candidates have worked as Software Engineers?",
+      icon: "💻",
+      category: "Job Titles"
     },
     {
-      question: "¿Quién habla español e inglés?",
-      icon: "🌍",
-      category: "Idiomas"
-    },
-    {
-      question: "Muéstrame desarrolladores con más de 3 años de experiencia",
-      icon: "⏰",
-      category: "Experiencia"
-    },
-    {
-      question: "¿Quién tiene certificaciones en AWS?",
-      icon: "☁️",
-      category: "Certificaciones"
-    },
-    {
-      question: "Busca candidatos con experiencia en React",
+      question: "Who has experience with React or JavaScript frameworks?",
       icon: "⚛️",
-      category: "Frameworks"
+      category: "Frontend Technologies"
+    },
+    {
+      question: "Find candidates with database experience (SQL, MongoDB, etc.)",
+      icon: "🗄️",
+      category: "Databases"
+    },
+    {
+      question: "Who has worked with cloud platforms (AWS, Azure, GCP)?",
+      icon: "☁️",
+      category: "Cloud Platforms"
+    },
+    {
+      question: "Which candidates have machine learning or AI experience?",
+      icon: "🤖",
+      category: "AI/ML"
+    },
+    {
+      question: "Find candidates with project management experience",
+      icon: "📊",
+      category: "Management"
+    },
+    {
+      question: "Who has experience with DevOps or CI/CD tools?",
+      icon: "🔧",
+      category: "DevOps"
+    },
+    {
+      question: "Which candidates speak multiple languages?",
+      icon: "🌍",
+      category: "Languages"
+    },
+    {
+      question: "Find candidates with mobile development experience",
+      icon: "📱",
+      category: "Mobile Development"
+    },
+    {
+      question: "Who has worked in fintech or financial services?",
+      icon: "💰",
+      category: "Industry Experience"
+    },
+    {
+      question: "Which candidates have startup experience?",
+      icon: "🚀",
+      category: "Company Types"
     }
   ];
 
@@ -156,7 +186,7 @@ const ChatInterface = () => {
   }, {});
 
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <motion.div 
         className="bg-white rounded-3xl shadow-large overflow-hidden border border-secondary-100"
         initial={{ opacity: 0, y: 20 }}
@@ -175,8 +205,8 @@ const ChatInterface = () => {
                 <MessageCircle className="h-6 w-6" />
               </motion.div>
               <div>
-                <h2 className="text-2xl font-bold">Chat con IA</h2>
-                <p className="text-primary-100 text-sm">Sistema inteligente de screening de CVs</p>
+                <h2 className="text-2xl font-bold">AI CV Screener</h2>
+                <p className="text-primary-100 text-sm">Intelligent CV screening system</p>
               </div>
             </div>
             
@@ -205,7 +235,7 @@ const ChatInterface = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <Download className="h-4 w-4" />
-                <span className="hidden sm:inline">Exportar</span>
+                <span className="hidden sm:inline">Export</span>
               </motion.button>
               
               <motion.button
@@ -215,14 +245,14 @@ const ChatInterface = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <Trash2 className="h-4 w-4" />
-                <span className="hidden sm:inline">Limpiar</span>
+                <span className="hidden sm:inline">Clear</span>
               </motion.button>
             </div>
           </div>
         </div>
 
-        {/* Messages Area */}
-        <div className="h-[600px] overflow-y-auto p-8 bg-gradient-to-b from-secondary-50 to-white">
+        {/* Messages Area - Significantly Increased Height */}
+        <div className="h-[800px] overflow-y-auto p-8 bg-gradient-to-b from-secondary-50 to-white">
           <AnimatePresence>
             {showWelcome && messages.length === 0 ? (
               <motion.div 
@@ -242,17 +272,17 @@ const ChatInterface = () => {
                 </motion.div>
                 
                 <h3 className="text-3xl font-bold text-secondary-900 mb-4">
-                  ¡Bienvenido al AI CV Screener!
+                  Welcome to AI CV Screener!
                 </h3>
-                <p className="text-lg text-secondary-600 mb-8 max-w-2xl mx-auto">
-                  Haz preguntas sobre los CVs y obtén respuestas inteligentes basadas en la información disponible.
-                  Nuestro sistema de IA te ayudará a encontrar los candidatos perfectos.
+                <p className="text-lg text-secondary-600 mb-8 max-w-3xl mx-auto">
+                  Ask questions about CVs and get intelligent answers based on available information.
+                  Our AI system will help you find the perfect candidates with detailed analysis.
                 </p>
                 
-                {/* Categorized Example Questions */}
+                {/* Enhanced Categorized Example Questions */}
                 <div className="space-y-6">
-                  <p className="text-sm font-medium text-secondary-700">Ejemplos de preguntas por categoría:</p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <p className="text-sm font-medium text-secondary-700">Example questions by category:</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {Object.entries(groupedQuestions).map(([category, questions]) => (
                       <motion.div
                         key={category}
@@ -329,7 +359,7 @@ const ChatInterface = () => {
                         transition={{ duration: 0.6, repeat: Infinity, delay: 0.4 }}
                       />
                     </div>
-                    <span className="text-sm font-medium">IA está escribiendo...</span>
+                    <span className="text-sm font-medium">AI is analyzing CVs...</span>
                   </motion.div>
                 )}
                 

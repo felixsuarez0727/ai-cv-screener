@@ -1,15 +1,26 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Bot, Wifi, WifiOff, Sparkles, Settings, Bell } from 'lucide-react';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Bot, Wifi, WifiOff, Sparkles, Settings, Sun, Moon } from 'lucide-react';
 import { cn } from '../utils/cn';
 
-const Header = ({ isConnected }) => {
+const Header = ({ isConnected, theme, onThemeChange }) => {
+  const [showThemeMenu, setShowThemeMenu] = useState(false);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    onThemeChange(newTheme);
+    setShowThemeMenu(false);
+  };
+
   return (
     <motion.header 
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="sticky top-0 z-50 glass-effect border-b border-white/20 shadow-soft"
+      className={cn(
+        "sticky top-0 z-50 glass-effect border-b border-white/20 shadow-soft",
+        theme === 'dark' && "glass-effect-dark border-secondary-700/20"
+      )}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
@@ -42,7 +53,10 @@ const Header = ({ isConnected }) => {
                 AI CV Screener
               </motion.h1>
               <motion.p 
-                className="text-sm text-secondary-600 font-medium"
+                className={cn(
+                  "text-sm font-medium",
+                  theme === 'light' ? "text-secondary-600" : "text-secondary-400"
+                )}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -60,7 +74,9 @@ const Header = ({ isConnected }) => {
                 "flex items-center space-x-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300",
                 isConnected 
                   ? "bg-success-100 text-success-800 border border-success-200" 
-                  : "bg-error-100 text-error-800 border border-error-200"
+                  : "bg-error-100 text-error-800 border border-error-200",
+                theme === 'dark' && isConnected && "bg-success-900/20 text-success-300 border-success-700/30",
+                theme === 'dark' && !isConnected && "bg-error-900/20 text-error-300 border-error-700/30"
               )}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -80,23 +96,65 @@ const Header = ({ isConnected }) => {
               </span>
             </motion.div>
 
-            {/* Action Buttons */}
-            <div className="flex items-center space-x-2">
+            {/* Theme Toggle Button */}
+            <div className="relative">
               <motion.button
+                onClick={() => setShowThemeMenu(!showThemeMenu)}
+                className={cn(
+                  "p-2 rounded-lg transition-all duration-200",
+                  theme === 'light' 
+                    ? "text-secondary-600 hover:text-primary-600 hover:bg-primary-50" 
+                    : "text-secondary-400 hover:text-primary-400 hover:bg-primary-900/20"
+                )}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="p-2 text-secondary-600 hover:text-primary-600 hover:bg-primary-50 rounded-lg transition-colors"
-              >
-                <Bell className="h-5 w-5" />
-              </motion.button>
-              
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="p-2 text-secondary-600 hover:text-primary-600 hover:bg-primary-50 rounded-lg transition-colors"
               >
                 <Settings className="h-5 w-5" />
               </motion.button>
+
+              {/* Theme Menu */}
+              <AnimatePresence>
+                {showThemeMenu && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className={cn(
+                      "absolute right-0 top-full mt-2 bg-white rounded-xl shadow-large border border-secondary-200 p-2 min-w-[160px]",
+                      theme === 'dark' && "bg-secondary-800 border-secondary-600"
+                    )}
+                  >
+                    <div className="text-xs font-medium px-3 py-1 text-secondary-500 mb-2">
+                      Theme
+                    </div>
+                    
+                    <motion.button
+                      onClick={toggleTheme}
+                      className={cn(
+                        "w-full flex items-center space-x-3 px-3 py-2 rounded-lg text-sm transition-all duration-200",
+                        theme === 'light'
+                          ? "bg-primary-50 text-primary-700 hover:bg-primary-100"
+                          : "bg-secondary-700 text-secondary-200 hover:bg-secondary-600"
+                      )}
+                      whileHover={{ scale: 1.02 }}
+                      whileTap={{ scale: 0.98 }}
+                    >
+                      {theme === 'light' ? (
+                        <>
+                          <Moon className="h-4 w-4" />
+                          <span>Dark Mode</span>
+                        </>
+                      ) : (
+                        <>
+                          <Sun className="h-4 w-4" />
+                          <span>Light Mode</span>
+                        </>
+                      )}
+                    </motion.button>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </div>
         </div>

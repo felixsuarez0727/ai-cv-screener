@@ -4,8 +4,9 @@ import MessageBubble from './MessageBubble';
 import InputForm from './InputForm';
 import { apiService } from '../services/api';
 import { MessageCircle, Trash2, FileText, Download, Bot, Users, TrendingUp } from 'lucide-react';
+import { cn } from '../utils/cn';
 
-const ChatInterface = () => {
+const ChatInterface = ({ theme }) => {
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [showWelcome, setShowWelcome] = useState(true);
@@ -188,7 +189,12 @@ const ChatInterface = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <motion.div 
-        className="bg-white rounded-3xl shadow-large overflow-hidden border border-secondary-100"
+        className={cn(
+          "rounded-3xl shadow-large overflow-hidden border",
+          theme === 'light' 
+            ? "bg-white border-secondary-100" 
+            : "bg-secondary-800 border-secondary-700"
+        )}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -252,7 +258,12 @@ const ChatInterface = () => {
         </div>
 
         {/* Messages Area - Significantly Increased Height */}
-        <div className="h-[800px] overflow-y-auto p-8 bg-gradient-to-b from-secondary-50 to-white">
+        <div className={cn(
+          "h-[800px] overflow-y-auto p-8",
+          theme === 'light' 
+            ? "bg-gradient-to-b from-secondary-50 to-white"
+            : "bg-gradient-to-b from-secondary-900 to-secondary-800"
+        )}>
           <AnimatePresence>
             {showWelcome && messages.length === 0 ? (
               <motion.div 
@@ -271,27 +282,46 @@ const ChatInterface = () => {
                   </div>
                 </motion.div>
                 
-                <h3 className="text-3xl font-bold text-secondary-900 mb-4">
+                <h3 className={cn(
+                  "text-3xl font-bold mb-4",
+                  theme === 'light' ? "text-secondary-900" : "text-white"
+                )}>
                   Welcome to AI CV Screener!
                 </h3>
-                <p className="text-lg text-secondary-600 mb-8 max-w-3xl mx-auto">
+                <p className={cn(
+                  "text-lg mb-8 max-w-3xl mx-auto",
+                  theme === 'light' ? "text-secondary-600" : "text-secondary-300"
+                )}>
                   Ask questions about CVs and get intelligent answers based on available information.
                   Our AI system will help you find the perfect candidates with detailed analysis.
                 </p>
                 
                 {/* Enhanced Categorized Example Questions */}
                 <div className="space-y-6">
-                  <p className="text-sm font-medium text-secondary-700">Example questions by category:</p>
+                  <p className={cn(
+                    "text-sm font-medium",
+                    theme === 'light' ? "text-secondary-700" : "text-secondary-300"
+                  )}>
+                    Example questions by category:
+                  </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {Object.entries(groupedQuestions).map(([category, questions]) => (
                       <motion.div
                         key={category}
-                        className="bg-white rounded-2xl p-4 shadow-soft border border-secondary-100"
+                        className={cn(
+                          "rounded-2xl p-4 shadow-soft border",
+                          theme === 'light' 
+                            ? "bg-white border-secondary-100" 
+                            : "bg-secondary-700 border-secondary-600"
+                        )}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.1 }}
                       >
-                        <h4 className="font-semibold text-secondary-900 mb-3 flex items-center gap-2">
+                        <h4 className={cn(
+                          "font-semibold mb-3 flex items-center gap-2",
+                          theme === 'light' ? "text-secondary-900" : "text-white"
+                        )}>
                           <span className="text-lg">{questions[0].icon}</span>
                           {category}
                         </h4>
@@ -300,7 +330,12 @@ const ChatInterface = () => {
                             <motion.button
                               key={index}
                               onClick={() => handleSendMessage(item.question)}
-                              className="w-full text-left p-3 bg-secondary-50 hover:bg-primary-50 rounded-xl text-sm text-secondary-700 hover:text-primary-700 transition-all duration-200 border border-transparent hover:border-primary-200"
+                              className={cn(
+                                "w-full text-left p-3 rounded-xl text-sm transition-all duration-200 border",
+                                theme === 'light'
+                                  ? "bg-secondary-50 hover:bg-primary-50 text-secondary-700 hover:text-primary-700 border-transparent hover:border-primary-200"
+                                  : "bg-secondary-600 hover:bg-primary-900/20 text-secondary-200 hover:text-primary-300 border-transparent hover:border-primary-600"
+                              )}
                               whileHover={{ scale: 1.02, x: 5 }}
                               whileTap={{ scale: 0.98 }}
                               initial={{ opacity: 0, x: -10 }}
@@ -325,13 +360,16 @@ const ChatInterface = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3, delay: index * 0.1 }}
                   >
-                    <MessageBubble message={message} />
+                    <MessageBubble message={message} theme={theme} />
                   </motion.div>
                 ))}
                 
                 {isLoading && (
                   <motion.div 
-                    className="flex items-center space-x-3 text-secondary-500"
+                    className={cn(
+                      "flex items-center space-x-3",
+                      theme === 'light' ? "text-secondary-500" : "text-secondary-400"
+                    )}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                   >
@@ -370,8 +408,13 @@ const ChatInterface = () => {
         </div>
 
         {/* Enhanced Input Area */}
-        <div className="border-t border-secondary-200 p-6 bg-white">
-          <InputForm onSendMessage={handleSendMessage} isLoading={isLoading} />
+        <div className={cn(
+          "border-t p-6",
+          theme === 'light' 
+            ? "border-secondary-200 bg-white" 
+            : "border-secondary-700 bg-secondary-800"
+        )}>
+          <InputForm onSendMessage={handleSendMessage} isLoading={isLoading} theme={theme} />
         </div>
       </motion.div>
     </div>

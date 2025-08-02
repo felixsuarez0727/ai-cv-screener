@@ -1,0 +1,2747 @@
+[
+  {
+    "personalInfo": {
+      "name": "Dorian Streich",
+      "email": "Dorian_Streich6@gmail.com",
+      "phone": "+1 987 206 0858",
+      "address": "717 Runolfsdottir Union Suite 116",
+      "city": "North Miami",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Dorian.Streich"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "DevOps Engineer",
+        "company": "Marvin, Lemke and Lockman",
+        "startDate": "February 2019",
+        "endDate": "October 2023",
+        "description": "Conducted code reviews and mentored junior developers. Integrated third-party APIs and external services. Optimized application performance and user experience. Created responsive user interfaces and interactive features."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Wyman, Cummerata and Bechtelar",
+        "startDate": "September 2019",
+        "endDate": "Present",
+        "description": "Implemented CI/CD pipelines and automated testing. Mentored junior developers and conducted technical interviews. Created responsive user interfaces and interactive features. Conducted code reviews and mentored junior developers."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Gerlach, Homenick and Gislason",
+        "startDate": "May 2019",
+        "endDate": "January 2022",
+        "description": "Implemented scalable backend systems and database architectures. Designed and implemented RESTful APIs and microservices."
+      }
+    ],
+    "education": {
+      "university": "Universidad Politécnica de Madrid",
+      "degree": "Information Technology",
+      "startYear": 2012,
+      "endYear": 2014
+    },
+    "skills": {
+      "technical": [
+        "Flask",
+        "Jenkins",
+        "Go",
+        "Django",
+        "Vue.js",
+        "Docker",
+        "PostgreSQL",
+        "C++",
+        "Redis",
+        "Express",
+        "Google Cloud",
+        "Linux",
+        "Rust",
+        "MySQL"
+      ],
+      "soft": [
+        "Emotional Intelligence",
+        "Time Management",
+        "Creativity",
+        "Adaptability",
+        "Negotiation",
+        "Teamwork"
+      ]
+    },
+    "languages": [
+      {
+        "name": "French",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Cisco Certified Network Associate (CCNA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Tomas Nader",
+      "email": "Tomas_Nader@gmail.com",
+      "phone": "+1 800 540 3109",
+      "address": "195 Lulu Glens Suite 356",
+      "city": "Spencertown",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Tomas.Nader"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Content Writer",
+        "company": "Mraz - Schulist",
+        "startDate": "October 2021",
+        "endDate": "Present",
+        "description": "Conducted code reviews and mentored junior developers. Optimized application performance and user experience. Troubleshot and resolved complex technical issues."
+      },
+      {
+        "title": "Python Developer",
+        "company": "Armstrong - Goyette",
+        "startDate": "September 2019",
+        "endDate": "Present",
+        "description": "Collaborated with UX/UI designers to improve user experience. Implemented CI/CD pipelines and automated testing. Mentored junior developers and conducted technical interviews."
+      },
+      {
+        "title": "Project Manager",
+        "company": "Hirthe, Raynor and Huel",
+        "startDate": "September 2018",
+        "endDate": "September 2022",
+        "description": "Performed database optimization and query tuning. Implemented scalable backend systems and database architectures. Designed and implemented RESTful APIs and microservices. Optimized application performance and user experience."
+      },
+      {
+        "title": "Data Analyst",
+        "company": "Armstrong Group",
+        "startDate": "December 2018",
+        "endDate": "October 2021",
+        "description": "Troubleshot and resolved complex technical issues. Optimized application performance and user experience. Mentored junior developers and conducted technical interviews. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "Software Developer",
+        "company": "Treutel - Bode",
+        "startDate": "January 2016",
+        "endDate": "May 2017",
+        "description": "Implemented scalable backend systems and database architectures. Optimized application performance and user experience. Mentored junior developers and conducted technical interviews. Performed database optimization and query tuning."
+      }
+    ],
+    "education": {
+      "university": "University of Michigan",
+      "degree": "Economics",
+      "startYear": 2018,
+      "endYear": 2020
+    },
+    "skills": {
+      "technical": [
+        "Flask",
+        "Java",
+        "Azure",
+        "PostgreSQL",
+        "Python",
+        "Ruby",
+        "Vue.js",
+        "C++",
+        "PHP",
+        "Docker",
+        "Node.js"
+      ],
+      "soft": [
+        "Creativity",
+        "Leadership",
+        "Teamwork",
+        "Adaptability",
+        "Problem Solving",
+        "Communication",
+        "Time Management",
+        "Negotiation"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Advanced"
+      },
+      {
+        "name": "French",
+        "level": "Advanced"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native"
+      }
+    ],
+    "certifications": [
+      "Cisco Certified Network Associate (CCNA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Jamar Schiller",
+      "email": "Jamar.Schiller@hotmail.com",
+      "phone": "+1 969 796 9458",
+      "address": "229 Jacobs Green Suite 254",
+      "city": "Blandastead",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Jamar.Schiller95"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "HR Specialist",
+        "company": "Homenick - Flatley",
+        "startDate": "September 2021",
+        "endDate": "September 2024",
+        "description": "Optimized application performance and user experience. Collaborated with stakeholders to define project requirements. Integrated third-party APIs and external services. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "Operations Manager",
+        "company": "Ryan Inc",
+        "startDate": "February 2020",
+        "endDate": "July 2021",
+        "description": "Developed and maintained web applications using modern technologies. Implemented CI/CD pipelines and automated testing. Optimized application performance and user experience. Managed software development lifecycle from concept to deployment."
+      },
+      {
+        "title": "HR Specialist",
+        "company": "Howell, Hilpert and Beahan",
+        "startDate": "February 2018",
+        "endDate": "July 2019",
+        "description": "Managed software development lifecycle from concept to deployment. Integrated third-party APIs and external services."
+      },
+      {
+        "title": "Node.js Developer",
+        "company": "Huel, Hoeger and Aufderhar",
+        "startDate": "January 2016",
+        "endDate": "Present",
+        "description": "Implemented CI/CD pipelines and automated testing. Collaborated with UX/UI designers to improve user experience."
+      },
+      {
+        "title": "Java Developer",
+        "company": "Howe LLC",
+        "startDate": "April 2016",
+        "endDate": "May 2018",
+        "description": "Performed database optimization and query tuning. Collaborated with UX/UI designers to improve user experience. Optimized application performance and user experience. Implemented CI/CD pipelines and automated testing."
+      }
+    ],
+    "education": {
+      "university": "Columbia University",
+      "degree": "Psychology",
+      "startYear": 2018,
+      "endYear": 2015
+    },
+    "skills": {
+      "technical": [
+        "Rust",
+        "Go",
+        "Git",
+        "Node.js",
+        "Azure",
+        "Google Cloud",
+        "Linux",
+        "React"
+      ],
+      "soft": [
+        "Leadership",
+        "Problem Solving",
+        "Teamwork",
+        "Negotiation",
+        "Creativity"
+      ]
+    },
+    "languages": [
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Native"
+      }
+    ],
+    "certifications": [
+      "ITIL Foundation Certification"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Thea Ryan",
+      "email": "Thea.Ryan29@yahoo.com",
+      "phone": "+1 373 043 4143",
+      "address": "6171 Clifton Road Apt. 814",
+      "city": "McKenziefort",
+      "country": "Spain",
+      "linkedin": "linkedin.com/in/Thea_Ryan"
+    },
+    "summary": "Dedicated professional with proven track record in software development and project management.",
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Cummerata, Thompson and Leannon",
+        "startDate": "October 2019",
+        "endDate": "Present",
+        "description": "Implemented CI/CD pipelines and automated testing. Integrated third-party APIs and external services. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "Huels Group",
+        "startDate": "February 2015",
+        "endDate": "Present",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Developed and maintained web applications using modern technologies."
+      }
+    ],
+    "education": {
+      "university": "Columbia University",
+      "degree": "Mathematics",
+      "startYear": 2018,
+      "endYear": 2016
+    },
+    "skills": {
+      "technical": [
+        "Kubernetes",
+        "AWS",
+        "Redis",
+        "Vue.js",
+        "PHP",
+        "MySQL",
+        "Git",
+        "Python",
+        "JavaScript",
+        "Java",
+        "Docker",
+        "Docker",
+        "Linux"
+      ],
+      "soft": [
+        "Problem Solving",
+        "Negotiation",
+        "Adaptability",
+        "Leadership",
+        "Presentation Skills",
+        "Teamwork",
+        "Emotional Intelligence",
+        "Creativity"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Basic"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect",
+      "Certified Kubernetes Administrator (CKA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Jennie Smitham",
+      "email": "Jennie.Smitham55@hotmail.com",
+      "phone": "+1 410 342 9482",
+      "address": "97954 Rogahn Mill Suite 897",
+      "city": "South Gennaroberg",
+      "country": "Peru",
+      "linkedin": "linkedin.com/in/Jennie_Smitham"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Full Stack Developer",
+        "company": "Beier Group",
+        "startDate": "April 2022",
+        "endDate": "May 2026",
+        "description": "Created responsive user interfaces and interactive features. Conducted code reviews and mentored junior developers."
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Schamberger - Wunsch",
+        "startDate": "October 2021",
+        "endDate": "June 2024",
+        "description": "Collaborated with UX/UI designers to improve user experience. Mentored junior developers and conducted technical interviews. Implemented CI/CD pipelines and automated testing. Designed and implemented RESTful APIs and microservices."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Ebert, Gusikowski and Smith",
+        "startDate": "October 2016",
+        "endDate": "Present",
+        "description": "Conducted code reviews and mentored junior developers. Integrated third-party APIs and external services."
+      },
+      {
+        "title": "Marketing Manager",
+        "company": "Cruickshank, Renner and Okuneva",
+        "startDate": "April 2016",
+        "endDate": "September 2018",
+        "description": "Implemented scalable backend systems and database architectures. Designed and implemented RESTful APIs and microservices. Conducted code reviews and mentored junior developers."
+      }
+    ],
+    "education": {
+      "university": "Universidad de Costa Rica (UCR)",
+      "degree": "Communication",
+      "startYear": 2014,
+      "endYear": 2014
+    },
+    "skills": {
+      "technical": [
+        "Python",
+        "Azure",
+        "Angular",
+        "C#",
+        "Express",
+        "Ruby",
+        "Java",
+        "JavaScript",
+        "Django",
+        "Kubernetes",
+        "MySQL",
+        "C++",
+        "Jenkins",
+        "PostgreSQL",
+        "PHP"
+      ],
+      "soft": [
+        "Leadership",
+        "Adaptability",
+        "Communication",
+        "Teamwork",
+        "Creativity",
+        "Critical Thinking",
+        "Emotional Intelligence",
+        "Presentation Skills"
+      ]
+    },
+    "languages": [
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect",
+      "MongoDB Certified Developer",
+      "Oracle Certified Professional"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Adriana Hodkiewicz",
+      "email": "Adriana_Hodkiewicz38@hotmail.com",
+      "phone": "+1 830 760 4750",
+      "address": "305 Chestnut Street Suite 800",
+      "city": "West Coltmouth",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Adriana_Hodkiewicz"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "React Developer",
+        "company": "Beatty - Treutel",
+        "startDate": "November 2021",
+        "endDate": "November 2023",
+        "description": "Developed and maintained web applications using modern technologies. Implemented scalable backend systems and database architectures. Designed and implemented RESTful APIs and microservices. Implemented CI/CD pipelines and automated testing."
+      },
+      {
+        "title": "Project Manager",
+        "company": "Schroeder Group",
+        "startDate": "October 2020",
+        "endDate": "April 2024",
+        "description": "Collaborated with stakeholders to define project requirements. Troubleshot and resolved complex technical issues. Led cross-functional teams to deliver high-quality software solutions. Optimized application performance and user experience."
+      },
+      {
+        "title": "Marketing Manager",
+        "company": "Herzog Inc",
+        "startDate": "April 2020",
+        "endDate": "Present",
+        "description": "Troubleshot and resolved complex technical issues. Developed and maintained web applications using modern technologies. Mentored junior developers and conducted technical interviews. Performed database optimization and query tuning."
+      },
+      {
+        "title": "Content Writer",
+        "company": "Wisozk Inc",
+        "startDate": "February 2017",
+        "endDate": "January 2021",
+        "description": "Implemented CI/CD pipelines and automated testing. Created responsive user interfaces and interactive features. Conducted code reviews and mentored junior developers."
+      },
+      {
+        "title": "Backend Developer",
+        "company": "Wilkinson LLC",
+        "startDate": "May 2016",
+        "endDate": "November 2020",
+        "description": "Implemented scalable backend systems and database architectures. Troubleshot and resolved complex technical issues."
+      }
+    ],
+    "education": {
+      "university": "Universidad de Costa Rica (UCR)",
+      "degree": "Business Administration",
+      "startYear": 2018,
+      "endYear": 2021
+    },
+    "skills": {
+      "technical": [
+        "MongoDB",
+        "C++",
+        "Linux",
+        "JavaScript",
+        "Django",
+        "Java",
+        "Redis",
+        "PostgreSQL",
+        "Git",
+        "Azure"
+      ],
+      "soft": [
+        "Adaptability",
+        "Time Management",
+        "Teamwork",
+        "Creativity",
+        "Emotional Intelligence",
+        "Critical Thinking",
+        "Negotiation",
+        "Communication"
+      ]
+    },
+    "languages": [
+      {
+        "name": "French",
+        "level": "Basic"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "German",
+        "level": "Basic"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "certifications": [
+      "Project Management Professional (PMP)",
+      "Certified Kubernetes Administrator (CKA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Robin Pollich",
+      "email": "Robin.Pollich@yahoo.com",
+      "phone": "+1 579 402 1997",
+      "address": "718 S Pine Street Suite 416",
+      "city": "West Karen",
+      "country": "Peru",
+      "linkedin": "linkedin.com/in/Robin.Pollich29"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Financial Analyst",
+        "company": "Stroman, Armstrong and Kuhic",
+        "startDate": "September 2020",
+        "endDate": "September 2024",
+        "description": "Mentored junior developers and conducted technical interviews. Developed and maintained web applications using modern technologies. Troubleshot and resolved complex technical issues. Integrated third-party APIs and external services."
+      },
+      {
+        "title": "Python Developer",
+        "company": "Hansen - Greenfelder",
+        "startDate": "May 2016",
+        "endDate": "Present",
+        "description": "Designed and implemented RESTful APIs and microservices. Performed database optimization and query tuning."
+      }
+    ],
+    "education": {
+      "university": "University of California, Berkeley",
+      "degree": "Data Science",
+      "startYear": 2014,
+      "endYear": 2020
+    },
+    "skills": {
+      "technical": [
+        "Django",
+        "Google Cloud",
+        "PostgreSQL",
+        "Azure",
+        "Express",
+        "JavaScript",
+        "Node.js",
+        "Python",
+        "Vue.js",
+        "Docker",
+        "Docker"
+      ],
+      "soft": [
+        "Critical Thinking",
+        "Presentation Skills",
+        "Problem Solving",
+        "Adaptability",
+        "Time Management",
+        "Creativity",
+        "Leadership",
+        "Negotiation"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Project Management Professional (PMP)",
+      "Certified Kubernetes Administrator (CKA)",
+      "Certified Scrum Master (CSM)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Isai Goyette",
+      "email": "Isai_Goyette@hotmail.com",
+      "phone": "+1 769 516 9765",
+      "address": "46520 Euclid Avenue Suite 430",
+      "city": "Tonyworth",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Isai_Goyette"
+    },
+    "summary": "Experienced software developer with expertise in modern web technologies and agile methodologies.",
+    "experience": [
+      {
+        "title": "Project Manager",
+        "company": "Kiehn Group",
+        "startDate": "May 2019",
+        "endDate": "Present",
+        "description": "Created responsive user interfaces and interactive features. Managed software development lifecycle from concept to deployment. Mentored junior developers and conducted technical interviews. Troubleshot and resolved complex technical issues."
+      },
+      {
+        "title": "Python Developer",
+        "company": "Maggio - Heller",
+        "startDate": "June 2018",
+        "endDate": "Present",
+        "description": "Implemented scalable backend systems and database architectures. Integrated third-party APIs and external services."
+      },
+      {
+        "title": "Node.js Developer",
+        "company": "Hudson, Jacobi and Mraz",
+        "startDate": "May 2017",
+        "endDate": "Present",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Managed software development lifecycle from concept to deployment."
+      }
+    ],
+    "education": {
+      "university": "Universidad Pompeu Fabra",
+      "degree": "Design",
+      "startYear": 2016,
+      "endYear": 2019
+    },
+    "skills": {
+      "technical": [
+        "Docker",
+        "Node.js",
+        "MongoDB",
+        "Redis",
+        "Ruby",
+        "Azure",
+        "PostgreSQL",
+        "PHP"
+      ],
+      "soft": [
+        "Problem Solving",
+        "Critical Thinking",
+        "Negotiation",
+        "Presentation Skills",
+        "Teamwork"
+      ]
+    },
+    "languages": [
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "Catalan",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Oracle Certified Professional",
+      "Google Cloud Professional",
+      "MongoDB Certified Developer"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Garfield Wisozk-Wolf",
+      "email": "Garfield_Wisozk-Wolf@gmail.com",
+      "phone": "+1 746 668 1748",
+      "address": "1899 W Front Street Apt. 223",
+      "city": "Sammamish",
+      "country": "Spain",
+      "linkedin": "linkedin.com/in/Garfield_Wisozk-Wolf82"
+    },
+    "summary": "Dedicated professional with proven track record in software development and project management.",
+    "experience": [
+      {
+        "title": "Mobile Developer",
+        "company": "Pfeffer - Lemke",
+        "startDate": "September 2022",
+        "endDate": "May 2023",
+        "description": "Conducted code reviews and mentored junior developers. Mentored junior developers and conducted technical interviews. Designed and implemented RESTful APIs and microservices."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Rohan Inc",
+        "startDate": "September 2018",
+        "endDate": "February 2020",
+        "description": "Developed and maintained web applications using modern technologies. Conducted code reviews and mentored junior developers. Performed database optimization and query tuning."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Collins - Mohr",
+        "startDate": "December 2015",
+        "endDate": "October 2019",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Performed database optimization and query tuning. Collaborated with stakeholders to define project requirements."
+      }
+    ],
+    "education": {
+      "university": "Universidad de Sevilla",
+      "degree": "Information Technology",
+      "startYear": 2011,
+      "endYear": 2018
+    },
+    "skills": {
+      "technical": [
+        "Go",
+        "Express",
+        "Rust",
+        "AWS",
+        "PostgreSQL",
+        "Java",
+        "C++",
+        "MongoDB",
+        "PHP",
+        "Node.js",
+        "Azure",
+        "Jenkins"
+      ],
+      "soft": [
+        "Adaptability",
+        "Emotional Intelligence",
+        "Communication",
+        "Teamwork",
+        "Time Management"
+      ]
+    },
+    "languages": [
+      {
+        "name": "French",
+        "level": "Advanced"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Project Management Professional (PMP)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Alexa Hegmann",
+      "email": "Alexa.Hegmann26@gmail.com",
+      "phone": "+1 045 793 3201",
+      "address": "728 14th Street Suite 247",
+      "city": "West Freidachester",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Alexa.Hegmann62"
+    },
+    "summary": "Experienced software developer with expertise in modern web technologies and agile methodologies.",
+    "experience": [
+      {
+        "title": "UX/UI Designer",
+        "company": "Schuster and Sons",
+        "startDate": "February 2022",
+        "endDate": "November 2024",
+        "description": "Implemented CI/CD pipelines and automated testing. Optimized application performance and user experience."
+      },
+      {
+        "title": "UX/UI Designer",
+        "company": "Conn, Wolff and Ritchie",
+        "startDate": "January 2019",
+        "endDate": "May 2021",
+        "description": "Implemented CI/CD pipelines and automated testing. Led cross-functional teams to deliver high-quality software solutions. Conducted code reviews and mentored junior developers. Mentored junior developers and conducted technical interviews."
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Kautzer - Zemlak",
+        "startDate": "November 2018",
+        "endDate": "Present",
+        "description": "Performed database optimization and query tuning. Implemented scalable backend systems and database architectures. Optimized application performance and user experience. Mentored junior developers and conducted technical interviews."
+      },
+      {
+        "title": "Financial Analyst",
+        "company": "Purdy - Kuhn",
+        "startDate": "December 2018",
+        "endDate": "Present",
+        "description": "Created responsive user interfaces and interactive features. Conducted code reviews and mentored junior developers. Integrated third-party APIs and external services."
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Ernser - Champlin",
+        "startDate": "February 2015",
+        "endDate": "August 2018",
+        "description": "Managed software development lifecycle from concept to deployment. Optimized application performance and user experience."
+      }
+    ],
+    "education": {
+      "university": "Pontificia Universidad Católica del Perú (PUCP)",
+      "degree": "Physics",
+      "startYear": 2014,
+      "endYear": 2017
+    },
+    "skills": {
+      "technical": [
+        "MongoDB",
+        "Django",
+        "JavaScript",
+        "C++",
+        "Python",
+        "PostgreSQL",
+        "Go",
+        "Redis",
+        "Node.js",
+        "Java",
+        "Google Cloud",
+        "PHP",
+        "Docker",
+        "Vue.js"
+      ],
+      "soft": [
+        "Presentation Skills",
+        "Emotional Intelligence",
+        "Time Management",
+        "Teamwork",
+        "Problem Solving"
+      ]
+    },
+    "languages": [
+      {
+        "name": "French",
+        "level": "Intermediate"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "ITIL Foundation Certification",
+      "Project Management Professional (PMP)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Leola O'Reilly",
+      "email": "Leola_OReilly83@yahoo.com",
+      "phone": "+1 180 454 3150",
+      "address": "84688 Robbie Expressway Suite 708",
+      "city": "Kiehnfield",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Leola_OReilly"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Data Scientist",
+        "company": "Zemlak, Bechtelar and Considine",
+        "startDate": "August 2022",
+        "endDate": "Present",
+        "description": "Collaborated with UX/UI designers to improve user experience. Optimized application performance and user experience. Designed and implemented RESTful APIs and microservices. Managed software development lifecycle from concept to deployment."
+      },
+      {
+        "title": "System Administrator",
+        "company": "Jerde LLC",
+        "startDate": "January 2019",
+        "endDate": "July 2022",
+        "description": "Managed software development lifecycle from concept to deployment. Conducted code reviews and mentored junior developers. Mentored junior developers and conducted technical interviews."
+      },
+      {
+        "title": "QA Engineer",
+        "company": "Pfannerstill - Leannon",
+        "startDate": "January 2018",
+        "endDate": "Present",
+        "description": "Performed database optimization and query tuning. Developed and maintained web applications using modern technologies."
+      },
+      {
+        "title": "Customer Success Manager",
+        "company": "Stanton - Conn",
+        "startDate": "February 2018",
+        "endDate": "October 2020",
+        "description": "Collaborated with UX/UI designers to improve user experience. Developed and maintained web applications using modern technologies. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Bosco, Walter and Ledner",
+        "startDate": "February 2016",
+        "endDate": "November 2017",
+        "description": "Conducted code reviews and mentored junior developers. Optimized application performance and user experience. Created responsive user interfaces and interactive features. Managed software development lifecycle from concept to deployment."
+      }
+    ],
+    "education": {
+      "university": "Cornell University",
+      "degree": "Communication",
+      "startYear": 2014,
+      "endYear": 2021
+    },
+    "skills": {
+      "technical": [
+        "Redis",
+        "MongoDB",
+        "React",
+        "MySQL",
+        "PHP",
+        "Docker",
+        "Go",
+        "Google Cloud"
+      ],
+      "soft": [
+        "Presentation Skills",
+        "Communication",
+        "Time Management",
+        "Emotional Intelligence",
+        "Leadership",
+        "Critical Thinking"
+      ]
+    },
+    "languages": [
+      {
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      },
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Fluent"
+      },
+      {
+        "name": "French",
+        "level": "Basic"
+      }
+    ],
+    "certifications": [
+      "Cisco Certified Network Associate (CCNA)",
+      "AWS Certified Solutions Architect",
+      "ITIL Foundation Certification"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Burley Spinka",
+      "email": "Burley.Spinka81@yahoo.com",
+      "phone": "+1 583 906 1321",
+      "address": "4829 Justyn Track Suite 851",
+      "city": "Fort Eltonhaven",
+      "country": "Peru",
+      "linkedin": "linkedin.com/in/Burley.Spinka80"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Customer Success Manager",
+        "company": "Price - Kuvalis",
+        "startDate": "August 2019",
+        "endDate": "January 2020",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Implemented scalable backend systems and database architectures. Implemented CI/CD pipelines and automated testing."
+      },
+      {
+        "title": "Mobile Developer",
+        "company": "Stokes - King",
+        "startDate": "December 2019",
+        "endDate": "January 2021",
+        "description": "Performed database optimization and query tuning. Implemented scalable backend systems and database architectures. Developed and maintained web applications using modern technologies. Designed and implemented RESTful APIs and microservices."
+      }
+    ],
+    "education": {
+      "university": "Universidad Nacional de Ingeniería (UNI)",
+      "degree": "Communication",
+      "startYear": 2017,
+      "endYear": 2014
+    },
+    "skills": {
+      "technical": [
+        "Kubernetes",
+        "Azure",
+        "Linux",
+        "PostgreSQL",
+        "MongoDB",
+        "Git",
+        "C++",
+        "AWS",
+        "Django",
+        "Go",
+        "JavaScript",
+        "Docker",
+        "Jenkins",
+        "Flask",
+        "Node.js"
+      ],
+      "soft": [
+        "Negotiation",
+        "Creativity",
+        "Leadership",
+        "Problem Solving",
+        "Teamwork",
+        "Adaptability"
+      ]
+    },
+    "languages": [
+      {
+        "name": "French",
+        "level": "Advanced"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      },
+      {
+        "name": "German",
+        "level": "Fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator",
+      "Certified Kubernetes Administrator (CKA)",
+      "Oracle Certified Professional"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Alford Stark",
+      "email": "Alford.Stark@yahoo.com",
+      "phone": "+1 215 958 7272",
+      "address": "24808 Jesus Brooks Suite 468",
+      "city": "Youngstown",
+      "country": "Peru",
+      "linkedin": "linkedin.com/in/Alford_Stark"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "QA Engineer",
+        "company": "Weber LLC",
+        "startDate": "November 2022",
+        "endDate": "Present",
+        "description": "Mentored junior developers and conducted technical interviews. Implemented CI/CD pipelines and automated testing."
+      },
+      {
+        "title": "HR Specialist",
+        "company": "Hilll LLC",
+        "startDate": "August 2020",
+        "endDate": "Present",
+        "description": "Collaborated with stakeholders to define project requirements. Optimized application performance and user experience."
+      },
+      {
+        "title": "Customer Success Manager",
+        "company": "McGlynn - Tremblay",
+        "startDate": "May 2016",
+        "endDate": "August 2018",
+        "description": "Conducted code reviews and mentored junior developers. Collaborated with stakeholders to define project requirements. Integrated third-party APIs and external services. Mentored junior developers and conducted technical interviews."
+      }
+    ],
+    "education": {
+      "university": "Universidad Politécnica de Madrid",
+      "degree": "Economics",
+      "startYear": 2018,
+      "endYear": 2021
+    },
+    "skills": {
+      "technical": [
+        "C++",
+        "C#",
+        "Go",
+        "JavaScript",
+        "Linux",
+        "Django",
+        "Google Cloud",
+        "Docker",
+        "Vue.js",
+        "Jenkins",
+        "AWS",
+        "MySQL",
+        "Kubernetes"
+      ],
+      "soft": [
+        "Emotional Intelligence",
+        "Presentation Skills",
+        "Problem Solving",
+        "Leadership",
+        "Critical Thinking",
+        "Adaptability"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Basic"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator (CKA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Elfrieda Turner",
+      "email": "Elfrieda.Turner67@yahoo.com",
+      "phone": "+1 873 419 7875",
+      "address": "101 Rath Gardens Suite 514",
+      "city": "Eugene",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Elfrieda.Turner2"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "Customer Success Manager",
+        "company": "Roob Group",
+        "startDate": "November 2022",
+        "endDate": "Present",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Conducted code reviews and mentored junior developers. Developed and maintained web applications using modern technologies. Implemented scalable backend systems and database architectures."
+      },
+      {
+        "title": "Content Writer",
+        "company": "Mueller, Willms and Schaden",
+        "startDate": "September 2019",
+        "endDate": "December 2021",
+        "description": "Optimized application performance and user experience. Collaborated with stakeholders to define project requirements."
+      },
+      {
+        "title": "Customer Success Manager",
+        "company": "Gorczany - Mann",
+        "startDate": "March 2019",
+        "endDate": "December 2020",
+        "description": "Collaborated with UX/UI designers to improve user experience. Collaborated with stakeholders to define project requirements."
+      },
+      {
+        "title": "Node.js Developer",
+        "company": "Kemmer, Kuhlman and Halvorson",
+        "startDate": "June 2019",
+        "endDate": "February 2022",
+        "description": "Designed and implemented RESTful APIs and microservices. Developed and maintained web applications using modern technologies. Managed software development lifecycle from concept to deployment."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Skiles Group",
+        "startDate": "July 2018",
+        "endDate": "June 2022",
+        "description": "Designed and implemented RESTful APIs and microservices. Collaborated with UX/UI designers to improve user experience."
+      }
+    ],
+    "education": {
+      "university": "New York University (NYU)",
+      "degree": "Business Administration",
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "skills": {
+      "technical": [
+        "Ruby",
+        "Flask",
+        "Kubernetes",
+        "Angular",
+        "Vue.js",
+        "Linux",
+        "PHP",
+        "React",
+        "Java",
+        "Azure",
+        "Redis",
+        "Go",
+        "Docker",
+        "C#",
+        "AWS"
+      ],
+      "soft": [
+        "Time Management",
+        "Creativity",
+        "Teamwork",
+        "Presentation Skills",
+        "Emotional Intelligence"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator (CKA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Roman Bednar",
+      "email": "Roman.Bednar10@gmail.com",
+      "phone": "+1 667 188 1963",
+      "address": "4001 Christina Ville Apt. 883",
+      "city": "Spokane",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Roman_Bednar9"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Hudson LLC",
+        "startDate": "May 2020",
+        "endDate": "July 2021",
+        "description": "Managed software development lifecycle from concept to deployment. Implemented CI/CD pipelines and automated testing. Created responsive user interfaces and interactive features. Conducted code reviews and mentored junior developers."
+      },
+      {
+        "title": "Operations Manager",
+        "company": "Shanahan and Sons",
+        "startDate": "March 2019",
+        "endDate": "November 2020",
+        "description": "Created responsive user interfaces and interactive features. Designed and implemented RESTful APIs and microservices. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "Content Writer",
+        "company": "Cummings Group",
+        "startDate": "March 2019",
+        "endDate": "Present",
+        "description": "Implemented scalable backend systems and database architectures. Performed database optimization and query tuning. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "System Administrator",
+        "company": "Paucek LLC",
+        "startDate": "July 2019",
+        "endDate": "April 2023",
+        "description": "Optimized application performance and user experience. Implemented scalable backend systems and database architectures."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Anderson, Bednar and Hayes",
+        "startDate": "December 2018",
+        "endDate": "January 2020",
+        "description": "Collaborated with stakeholders to define project requirements. Created responsive user interfaces and interactive features. Integrated third-party APIs and external services. Implemented CI/CD pipelines and automated testing."
+      }
+    ],
+    "education": {
+      "university": "Universidad de Costa Rica (UCR)",
+      "degree": "Mathematics",
+      "startYear": 2015,
+      "endYear": 2015
+    },
+    "skills": {
+      "technical": [
+        "Java",
+        "Vue.js",
+        "AWS",
+        "Express",
+        "Flask",
+        "Azure",
+        "JavaScript",
+        "React",
+        "Rust",
+        "Ruby",
+        "C++",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Redis"
+      ],
+      "soft": [
+        "Presentation Skills",
+        "Adaptability",
+        "Emotional Intelligence",
+        "Communication",
+        "Creativity"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Kyle Metz",
+      "email": "Kyle_Metz14@yahoo.com",
+      "phone": "+1 342 303 0755",
+      "address": "60944 Old Road Apt. 442",
+      "city": "Lake Aubrey",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Kyle.Metz"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Software Developer",
+        "company": "Reichel, Kuhlman and Kling",
+        "startDate": "March 2020",
+        "endDate": "Present",
+        "description": "Collaborated with UX/UI designers to improve user experience. Optimized application performance and user experience. Implemented CI/CD pipelines and automated testing. Created responsive user interfaces and interactive features."
+      },
+      {
+        "title": "Java Developer",
+        "company": "Kiehn, Crist and Baumbach",
+        "startDate": "June 2019",
+        "endDate": "December 2020",
+        "description": "Mentored junior developers and conducted technical interviews. Led cross-functional teams to deliver high-quality software solutions. Created responsive user interfaces and interactive features."
+      }
+    ],
+    "education": {
+      "university": "Pontificia Universidad Católica del Perú (PUCP)",
+      "degree": "Communication",
+      "startYear": 2015,
+      "endYear": 2016
+    },
+    "skills": {
+      "technical": [
+        "Google Cloud",
+        "Go",
+        "MongoDB",
+        "PHP",
+        "Flask",
+        "Docker",
+        "Kubernetes",
+        "React",
+        "Docker",
+        "Node.js",
+        "Angular",
+        "Jenkins"
+      ],
+      "soft": [
+        "Problem Solving",
+        "Creativity",
+        "Communication",
+        "Presentation Skills",
+        "Teamwork",
+        "Emotional Intelligence"
+      ]
+    },
+    "languages": [
+      {
+        "name": "French",
+        "level": "Basic"
+      },
+      {
+        "name": "German",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "Catalan",
+        "level": "Native"
+      },
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect",
+      "Certified Kubernetes Administrator (CKA)",
+      "Project Management Professional (PMP)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Johnnie Kshlerin",
+      "email": "Johnnie_Kshlerin80@gmail.com",
+      "phone": "+1 368 543 6757",
+      "address": "628 East Avenue Apt. 481",
+      "city": "New Kari",
+      "country": "Peru",
+      "linkedin": "linkedin.com/in/Johnnie.Kshlerin8"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "HR Specialist",
+        "company": "Strosin and Sons",
+        "startDate": "March 2018",
+        "endDate": "April 2019",
+        "description": "Performed database optimization and query tuning. Collaborated with UX/UI designers to improve user experience."
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Windler and Sons",
+        "startDate": "February 2017",
+        "endDate": "March 2018",
+        "description": "Implemented CI/CD pipelines and automated testing. Integrated third-party APIs and external services. Performed database optimization and query tuning."
+      },
+      {
+        "title": "Python Developer",
+        "company": "Pollich, Mante and Grimes",
+        "startDate": "December 2016",
+        "endDate": "June 2018",
+        "description": "Mentored junior developers and conducted technical interviews. Performed database optimization and query tuning."
+      }
+    ],
+    "education": {
+      "university": "New York University (NYU)",
+      "degree": "Marketing",
+      "startYear": 2016,
+      "endYear": 2017
+    },
+    "skills": {
+      "technical": [
+        "Express",
+        "Docker",
+        "Git",
+        "Flask",
+        "Google Cloud",
+        "PostgreSQL",
+        "Java",
+        "Kubernetes",
+        "Django",
+        "Python",
+        "React",
+        "C++",
+        "Ruby",
+        "Rust"
+      ],
+      "soft": [
+        "Leadership",
+        "Time Management",
+        "Problem Solving",
+        "Teamwork",
+        "Presentation Skills",
+        "Communication",
+        "Negotiation"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "certifications": [
+      "Certified Scrum Master (CSM)",
+      "MongoDB Certified Developer"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Shania Tremblay",
+      "email": "Shania_Tremblay41@gmail.com",
+      "phone": "+1 538 461 7721",
+      "address": "776 Lilla Island Suite 328",
+      "city": "Barrowsville",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Shania_Tremblay"
+    },
+    "summary": "Experienced software developer with expertise in modern web technologies and agile methodologies.",
+    "experience": [
+      {
+        "title": "Operations Manager",
+        "company": "Collins - Hegmann",
+        "startDate": "September 2022",
+        "endDate": "April 2024",
+        "description": "Developed and maintained web applications using modern technologies. Mentored junior developers and conducted technical interviews."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Rutherford - Daugherty",
+        "startDate": "October 2020",
+        "endDate": "November 2022",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Designed and implemented RESTful APIs and microservices. Conducted code reviews and mentored junior developers. Troubleshot and resolved complex technical issues."
+      },
+      {
+        "title": "Marketing Manager",
+        "company": "Dickinson, Boyer and Jenkins",
+        "startDate": "February 2017",
+        "endDate": "Present",
+        "description": "Troubleshot and resolved complex technical issues. Designed and implemented RESTful APIs and microservices. Conducted code reviews and mentored junior developers. Implemented scalable backend systems and database architectures."
+      }
+    ],
+    "education": {
+      "university": "University of Michigan",
+      "degree": "Data Science",
+      "startYear": 2012,
+      "endYear": 2018
+    },
+    "skills": {
+      "technical": [
+        "Angular",
+        "PHP",
+        "Ruby",
+        "Go",
+        "Redis",
+        "Google Cloud",
+        "PostgreSQL",
+        "Git",
+        "Jenkins",
+        "AWS",
+        "C++"
+      ],
+      "soft": [
+        "Creativity",
+        "Communication",
+        "Negotiation",
+        "Critical Thinking",
+        "Presentation Skills"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "Catalan",
+        "level": "Native"
+      }
+    ],
+    "certifications": [
+      "ITIL Foundation Certification",
+      "Oracle Certified Professional"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Juliet Roob",
+      "email": "Juliet.Roob@hotmail.com",
+      "phone": "+1 458 336 3257",
+      "address": "5670 The Mount Suite 377",
+      "city": "East Christineside",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Juliet_Roob"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Customer Success Manager",
+        "company": "Klein - Hamill",
+        "startDate": "February 2017",
+        "endDate": "Present",
+        "description": "Troubleshot and resolved complex technical issues. Conducted code reviews and mentored junior developers. Designed and implemented RESTful APIs and microservices."
+      },
+      {
+        "title": "System Administrator",
+        "company": "Padberg and Sons",
+        "startDate": "December 2017",
+        "endDate": "Present",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Implemented CI/CD pipelines and automated testing. Managed software development lifecycle from concept to deployment. Collaborated with stakeholders to define project requirements."
+      },
+      {
+        "title": "Node.js Developer",
+        "company": "Kozey Group",
+        "startDate": "October 2016",
+        "endDate": "Present",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Collaborated with stakeholders to define project requirements. Optimized application performance and user experience. Collaborated with UX/UI designers to improve user experience."
+      },
+      {
+        "title": "Marketing Manager",
+        "company": "Schinner LLC",
+        "startDate": "February 2015",
+        "endDate": "June 2019",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Optimized application performance and user experience. Troubleshot and resolved complex technical issues. Mentored junior developers and conducted technical interviews."
+      }
+    ],
+    "education": {
+      "university": "Universidad Autónoma de Madrid",
+      "degree": "Data Science",
+      "startYear": 2011,
+      "endYear": 2016
+    },
+    "skills": {
+      "technical": [
+        "Flask",
+        "Go",
+        "Kubernetes",
+        "Google Cloud",
+        "Rust",
+        "MySQL",
+        "Node.js",
+        "React"
+      ],
+      "soft": [
+        "Teamwork",
+        "Problem Solving",
+        "Adaptability",
+        "Negotiation",
+        "Communication",
+        "Creativity"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      },
+      {
+        "name": "Spanish",
+        "level": "Advanced"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Fluent"
+      },
+      {
+        "name": "French",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator (CKA)",
+      "Microsoft Azure Administrator"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Salvatore Shanahan",
+      "email": "Salvatore_Shanahan4@yahoo.com",
+      "phone": "+1 890 897 1895",
+      "address": "7926 Tremaine Mountain Suite 335",
+      "city": "Port Veronica",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Salvatore.Shanahan52"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "DevOps Engineer",
+        "company": "Grimes - Shanahan",
+        "startDate": "May 2018",
+        "endDate": "Present",
+        "description": "Performed database optimization and query tuning. Troubleshot and resolved complex technical issues. Developed and maintained web applications using modern technologies."
+      },
+      {
+        "title": "Graphic Designer",
+        "company": "Runte and Sons",
+        "startDate": "January 2015",
+        "endDate": "Present",
+        "description": "Implemented scalable backend systems and database architectures. Integrated third-party APIs and external services. Collaborated with UX/UI designers to improve user experience. Designed and implemented RESTful APIs and microservices."
+      }
+    ],
+    "education": {
+      "university": "Universidad Nacional (UNA)",
+      "degree": "Psychology",
+      "startYear": 2010,
+      "endYear": 2016
+    },
+    "skills": {
+      "technical": [
+        "Node.js",
+        "MySQL",
+        "PHP",
+        "Flask",
+        "JavaScript",
+        "AWS",
+        "Express",
+        "Google Cloud",
+        "Redis",
+        "React",
+        "Django",
+        "Python",
+        "Kubernetes",
+        "Rust"
+      ],
+      "soft": [
+        "Emotional Intelligence",
+        "Leadership",
+        "Problem Solving",
+        "Adaptability",
+        "Creativity",
+        "Communication",
+        "Presentation Skills"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "Catalan",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Efrain Heller",
+      "email": "Efrain_Heller52@yahoo.com",
+      "phone": "+1 846 073 3859",
+      "address": "67734 Glennie Turnpike Apt. 715",
+      "city": "Port Felipabury",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Efrain_Heller"
+    },
+    "summary": "Dedicated professional with proven track record in software development and project management.",
+    "experience": [
+      {
+        "title": "Graphic Designer",
+        "company": "Blanda, McLaughlin and Sanford",
+        "startDate": "April 2022",
+        "endDate": "Present",
+        "description": "Designed and implemented RESTful APIs and microservices. Integrated third-party APIs and external services."
+      },
+      {
+        "title": "Backend Developer",
+        "company": "Bruen Group",
+        "startDate": "December 2020",
+        "endDate": "December 2022",
+        "description": "Collaborated with stakeholders to define project requirements. Performed database optimization and query tuning."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Gleason Inc",
+        "startDate": "September 2017",
+        "endDate": "March 2020",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Created responsive user interfaces and interactive features."
+      }
+    ],
+    "education": {
+      "university": "University of California, Berkeley",
+      "degree": "Business Administration",
+      "startYear": 2017,
+      "endYear": 2019
+    },
+    "skills": {
+      "technical": [
+        "Jenkins",
+        "JavaScript",
+        "C#",
+        "Kubernetes",
+        "Go",
+        "Angular",
+        "C++",
+        "Vue.js",
+        "Flask",
+        "React",
+        "PostgreSQL",
+        "Python",
+        "Docker",
+        "Google Cloud",
+        "Rust"
+      ],
+      "soft": [
+        "Adaptability",
+        "Leadership",
+        "Presentation Skills",
+        "Creativity",
+        "Emotional Intelligence"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "Catalan",
+        "level": "Native"
+      },
+      {
+        "name": "French",
+        "level": "Basic"
+      },
+      {
+        "name": "German",
+        "level": "Basic"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Cisco Certified Network Associate (CCNA)",
+      "Certified Scrum Master (CSM)",
+      "Project Management Professional (PMP)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Solon Osinski",
+      "email": "Solon_Osinski8@hotmail.com",
+      "phone": "+1 384 245 4550",
+      "address": "4235 Morar Parks Apt. 471",
+      "city": "Torpborough",
+      "country": "Spain",
+      "linkedin": "linkedin.com/in/Solon.Osinski"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "HR Specialist",
+        "company": "Stark LLC",
+        "startDate": "May 2020",
+        "endDate": "August 2021",
+        "description": "Implemented CI/CD pipelines and automated testing. Managed software development lifecycle from concept to deployment."
+      },
+      {
+        "title": "Content Writer",
+        "company": "Hickle, Boyer and Rau",
+        "startDate": "November 2018",
+        "endDate": "November 2020",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Implemented scalable backend systems and database architectures."
+      },
+      {
+        "title": "Content Writer",
+        "company": "Klocko, Braun and Mitchell",
+        "startDate": "September 2017",
+        "endDate": "Present",
+        "description": "Developed and maintained web applications using modern technologies. Collaborated with stakeholders to define project requirements."
+      }
+    ],
+    "education": {
+      "university": "Universidad de Costa Rica (UCR)",
+      "degree": "Information Technology",
+      "startYear": 2012,
+      "endYear": 2016
+    },
+    "skills": {
+      "technical": [
+        "Linux",
+        "PostgreSQL",
+        "AWS",
+        "MongoDB",
+        "Express",
+        "Go",
+        "Rust",
+        "Azure",
+        "C++",
+        "Git"
+      ],
+      "soft": [
+        "Negotiation",
+        "Leadership",
+        "Critical Thinking",
+        "Teamwork",
+        "Presentation Skills",
+        "Emotional Intelligence",
+        "Adaptability"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Basic"
+      },
+      {
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "name": "Catalan",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Cyril Jacobs",
+      "email": "Cyril_Jacobs@yahoo.com",
+      "phone": "+1 254 764 7111",
+      "address": "1416 Oliver Motorway Suite 592",
+      "city": "South Daphne",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Cyril.Jacobs54"
+    },
+    "summary": "Results-driven professional with strong background in full-stack development and team leadership.",
+    "experience": [
+      {
+        "title": "Java Developer",
+        "company": "Lueilwitz and Sons",
+        "startDate": "October 2020",
+        "endDate": "September 2022",
+        "description": "Collaborated with stakeholders to define project requirements. Collaborated with UX/UI designers to improve user experience."
+      },
+      {
+        "title": "Financial Analyst",
+        "company": "Kreiger - Simonis",
+        "startDate": "June 2020",
+        "endDate": "April 2021",
+        "description": "Optimized application performance and user experience. Integrated third-party APIs and external services. Conducted code reviews and mentored junior developers. Led cross-functional teams to deliver high-quality software solutions."
+      }
+    ],
+    "education": {
+      "university": "Universidad Autónoma de Madrid",
+      "degree": "Economics",
+      "startYear": 2012,
+      "endYear": 2021
+    },
+    "skills": {
+      "technical": [
+        "Ruby",
+        "Django",
+        "Node.js",
+        "Kubernetes",
+        "React",
+        "Python",
+        "C#",
+        "PostgreSQL",
+        "C++",
+        "Vue.js",
+        "Azure",
+        "Git",
+        "Google Cloud",
+        "Linux",
+        "Jenkins"
+      ],
+      "soft": [
+        "Emotional Intelligence",
+        "Negotiation",
+        "Leadership",
+        "Creativity",
+        "Problem Solving",
+        "Presentation Skills",
+        "Teamwork"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate"
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Dora Nader",
+      "email": "Dora.Nader@gmail.com",
+      "phone": "+1 596 053 4108",
+      "address": "7319 Danny Views Suite 350",
+      "city": "Fort Kendra",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Dora.Nader"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Graphic Designer",
+        "company": "Jacobson Group",
+        "startDate": "July 2021",
+        "endDate": "July 2025",
+        "description": "Conducted code reviews and mentored junior developers. Implemented scalable backend systems and database architectures. Mentored junior developers and conducted technical interviews. Performed database optimization and query tuning."
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "Klocko Group",
+        "startDate": "September 2018",
+        "endDate": "May 2022",
+        "description": "Integrated third-party APIs and external services. Troubleshot and resolved complex technical issues."
+      }
+    ],
+    "education": {
+      "university": "University of Michigan",
+      "degree": "Physics",
+      "startYear": 2012,
+      "endYear": 2022
+    },
+    "skills": {
+      "technical": [
+        "C++",
+        "Java",
+        "Python",
+        "PostgreSQL",
+        "MySQL",
+        "Jenkins",
+        "MongoDB",
+        "Vue.js",
+        "Azure",
+        "AWS",
+        "React",
+        "Ruby",
+        "Go"
+      ],
+      "soft": [
+        "Adaptability",
+        "Problem Solving",
+        "Communication",
+        "Negotiation",
+        "Teamwork",
+        "Time Management",
+        "Emotional Intelligence"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator",
+      "ITIL Foundation Certification",
+      "Project Management Professional (PMP)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Electa Fritsch",
+      "email": "Electa_Fritsch64@gmail.com",
+      "phone": "+1 111 026 7995",
+      "address": "6409 13th Street Apt. 818",
+      "city": "Rapid City",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Electa.Fritsch82"
+    },
+    "summary": "Results-driven professional with strong background in full-stack development and team leadership.",
+    "experience": [
+      {
+        "title": "Graphic Designer",
+        "company": "Waters and Sons",
+        "startDate": "July 2019",
+        "endDate": "Present",
+        "description": "Performed database optimization and query tuning. Designed and implemented RESTful APIs and microservices."
+      },
+      {
+        "title": "Digital Marketing Specialist",
+        "company": "DuBuque, Hodkiewicz and Strosin",
+        "startDate": "January 2017",
+        "endDate": "April 2018",
+        "description": "Troubleshot and resolved complex technical issues. Optimized application performance and user experience."
+      },
+      {
+        "title": "Data Analyst",
+        "company": "Nicolas - Lesch",
+        "startDate": "April 2017",
+        "endDate": "Present",
+        "description": "Developed and maintained web applications using modern technologies. Troubleshot and resolved complex technical issues. Collaborated with stakeholders to define project requirements. Optimized application performance and user experience."
+      },
+      {
+        "title": "Customer Success Manager",
+        "company": "Strosin, Ernser and Runte",
+        "startDate": "April 2016",
+        "endDate": "Present",
+        "description": "Created responsive user interfaces and interactive features. Collaborated with stakeholders to define project requirements. Managed software development lifecycle from concept to deployment. Designed and implemented RESTful APIs and microservices."
+      }
+    ],
+    "education": {
+      "university": "Carnegie Mellon University",
+      "degree": "Communication",
+      "startYear": 2011,
+      "endYear": 2016
+    },
+    "skills": {
+      "technical": [
+        "Git",
+        "AWS",
+        "Java",
+        "JavaScript",
+        "MongoDB",
+        "Google Cloud",
+        "C#",
+        "Docker",
+        "PostgreSQL",
+        "MySQL",
+        "Flask",
+        "Express",
+        "Linux",
+        "React",
+        "Ruby"
+      ],
+      "soft": [
+        "Adaptability",
+        "Time Management",
+        "Teamwork",
+        "Negotiation",
+        "Critical Thinking"
+      ]
+    },
+    "languages": [
+      {
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Florida Labadie",
+      "email": "Florida.Labadie66@hotmail.com",
+      "phone": "+1 867 268 9863",
+      "address": "3403 Muller Shores Suite 382",
+      "city": "Rahsaanchester",
+      "country": "Peru",
+      "linkedin": "linkedin.com/in/Florida.Labadie"
+    },
+    "summary": "Results-driven professional with strong background in full-stack development and team leadership.",
+    "experience": [
+      {
+        "title": "Python Developer",
+        "company": "Flatley, Hand and Waters",
+        "startDate": "October 2022",
+        "endDate": "September 2024",
+        "description": "Collaborated with UX/UI designers to improve user experience. Troubleshot and resolved complex technical issues. Designed and implemented RESTful APIs and microservices."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Romaguera - Walter",
+        "startDate": "March 2021",
+        "endDate": "June 2024",
+        "description": "Troubleshot and resolved complex technical issues. Mentored junior developers and conducted technical interviews. Optimized application performance and user experience. Developed and maintained web applications using modern technologies."
+      },
+      {
+        "title": "Java Developer",
+        "company": "McGlynn - Mueller",
+        "startDate": "March 2020",
+        "endDate": "June 2022",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Mentored junior developers and conducted technical interviews."
+      },
+      {
+        "title": "UX/UI Designer",
+        "company": "Abbott - Tromp",
+        "startDate": "September 2018",
+        "endDate": "Present",
+        "description": "Mentored junior developers and conducted technical interviews. Collaborated with UX/UI designers to improve user experience."
+      },
+      {
+        "title": "Java Developer",
+        "company": "Effertz - Brown",
+        "startDate": "July 2018",
+        "endDate": "August 2021",
+        "description": "Created responsive user interfaces and interactive features. Integrated third-party APIs and external services. Troubleshot and resolved complex technical issues."
+      }
+    ],
+    "education": {
+      "university": "Universidad Estatal a Distancia (UNED)",
+      "degree": "Business Administration",
+      "startYear": 2018,
+      "endYear": 2017
+    },
+    "skills": {
+      "technical": [
+        "Python",
+        "Java",
+        "Express",
+        "Rust",
+        "MongoDB",
+        "Node.js",
+        "Go",
+        "Vue.js",
+        "React",
+        "Docker"
+      ],
+      "soft": [
+        "Teamwork",
+        "Critical Thinking",
+        "Problem Solving",
+        "Negotiation",
+        "Adaptability",
+        "Leadership"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "name": "German",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional",
+      "Microsoft Azure Administrator"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Dulce Homenick",
+      "email": "Dulce_Homenick9@yahoo.com",
+      "phone": "+1 427 616 4757",
+      "address": "1389 Bins Lake Apt. 230",
+      "city": "Brownton",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Dulce.Homenick"
+    },
+    "summary": "Skilled developer passionate about creating innovative solutions and optimizing user experiences.",
+    "experience": [
+      {
+        "title": "Data Analyst",
+        "company": "Jerde Inc",
+        "startDate": "August 2022",
+        "endDate": "Present",
+        "description": "Created responsive user interfaces and interactive features. Collaborated with stakeholders to define project requirements."
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Thompson - Balistreri",
+        "startDate": "September 2020",
+        "endDate": "July 2022",
+        "description": "Designed and implemented RESTful APIs and microservices. Integrated third-party APIs and external services. Collaborated with UX/UI designers to improve user experience."
+      },
+      {
+        "title": "Graphic Designer",
+        "company": "Will - Skiles",
+        "startDate": "June 2020",
+        "endDate": "January 2023",
+        "description": "Managed software development lifecycle from concept to deployment. Collaborated with UX/UI designers to improve user experience. Performed database optimization and query tuning."
+      },
+      {
+        "title": "System Administrator",
+        "company": "Harris, Hills and Breitenberg",
+        "startDate": "August 2017",
+        "endDate": "September 2019",
+        "description": "Managed software development lifecycle from concept to deployment. Troubleshot and resolved complex technical issues. Conducted code reviews and mentored junior developers."
+      },
+      {
+        "title": "HR Specialist",
+        "company": "Stroman and Sons",
+        "startDate": "January 2017",
+        "endDate": "Present",
+        "description": "Designed and implemented RESTful APIs and microservices. Managed software development lifecycle from concept to deployment."
+      }
+    ],
+    "education": {
+      "university": "Columbia University",
+      "degree": "Information Technology",
+      "startYear": 2015,
+      "endYear": 2014
+    },
+    "skills": {
+      "technical": [
+        "Go",
+        "Redis",
+        "Node.js",
+        "Java",
+        "Docker",
+        "C++",
+        "Git",
+        "Python",
+        "Azure",
+        "AWS"
+      ],
+      "soft": [
+        "Leadership",
+        "Teamwork",
+        "Problem Solving",
+        "Creativity",
+        "Presentation Skills"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Catalan",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      }
+    ],
+    "certifications": [
+      "MongoDB Certified Developer",
+      "AWS Certified Solutions Architect"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Muhammad Huels",
+      "email": "Muhammad.Huels13@hotmail.com",
+      "phone": "+1 380 878 6421",
+      "address": "1085 King Spurs Suite 628",
+      "city": "New Alexandrine",
+      "country": "Spain",
+      "linkedin": "linkedin.com/in/Muhammad_Huels89"
+    },
+    "summary": "Experienced software developer with expertise in modern web technologies and agile methodologies.",
+    "experience": [
+      {
+        "title": "Data Analyst",
+        "company": "Kuvalis, Runte and Batz",
+        "startDate": "April 2018",
+        "endDate": "December 2020",
+        "description": "Implemented CI/CD pipelines and automated testing. Troubleshot and resolved complex technical issues. Integrated third-party APIs and external services. Implemented scalable backend systems and database architectures."
+      },
+      {
+        "title": "Sales Representative",
+        "company": "Vandervort, Rowe and Krajcik",
+        "startDate": "April 2018",
+        "endDate": "March 2021",
+        "description": "Implemented scalable backend systems and database architectures. Performed database optimization and query tuning. Developed and maintained web applications using modern technologies. Optimized application performance and user experience."
+      }
+    ],
+    "education": {
+      "university": "Carnegie Mellon University",
+      "degree": "Economics",
+      "startYear": 2012,
+      "endYear": 2019
+    },
+    "skills": {
+      "technical": [
+        "Vue.js",
+        "Python",
+        "Angular",
+        "Express",
+        "Git",
+        "Go",
+        "Azure",
+        "MongoDB",
+        "Kubernetes",
+        "C++",
+        "Docker",
+        "Redis",
+        "Linux",
+        "Rust",
+        "Jenkins"
+      ],
+      "soft": [
+        "Time Management",
+        "Adaptability",
+        "Critical Thinking",
+        "Creativity",
+        "Teamwork",
+        "Negotiation",
+        "Problem Solving",
+        "Leadership"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Fluent"
+      },
+      {
+        "name": "French",
+        "level": "Fluent"
+      },
+      {
+        "name": "Catalan",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Toby Frami",
+      "email": "Toby.Frami95@hotmail.com",
+      "phone": "+1 392 018 1337",
+      "address": "123 Alanna Wells Suite 203",
+      "city": "Bellevue",
+      "country": "United States",
+      "linkedin": "linkedin.com/in/Toby.Frami"
+    },
+    "summary": "Technical expert with deep knowledge of cloud technologies and scalable architectures.",
+    "experience": [
+      {
+        "title": "Product Manager",
+        "company": "Block - Mayer",
+        "startDate": "June 2022",
+        "endDate": "Present",
+        "description": "Led cross-functional teams to deliver high-quality software solutions. Implemented scalable backend systems and database architectures."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Johnston, Harber and McKenzie",
+        "startDate": "February 2020",
+        "endDate": "February 2021",
+        "description": "Collaborated with UX/UI designers to improve user experience. Managed software development lifecycle from concept to deployment. Created responsive user interfaces and interactive features. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "Marketing Manager",
+        "company": "Treutel, Mraz and Emard",
+        "startDate": "April 2020",
+        "endDate": "December 2021",
+        "description": "Implemented scalable backend systems and database architectures. Collaborated with stakeholders to define project requirements. Led cross-functional teams to deliver high-quality software solutions."
+      },
+      {
+        "title": "Customer Success Manager",
+        "company": "Orn, Spinka and Homenick",
+        "startDate": "December 2016",
+        "endDate": "May 2020",
+        "description": "Designed and implemented RESTful APIs and microservices. Collaborated with UX/UI designers to improve user experience. Conducted code reviews and mentored junior developers."
+      },
+      {
+        "title": "Financial Analyst",
+        "company": "Hilpert - Rodriguez",
+        "startDate": "December 2015",
+        "endDate": "July 2018",
+        "description": "Created responsive user interfaces and interactive features. Integrated third-party APIs and external services. Collaborated with UX/UI designers to improve user experience. Optimized application performance and user experience."
+      }
+    ],
+    "education": {
+      "university": "Universidad Nacional de Ingeniería (UNI)",
+      "degree": "Marketing",
+      "startYear": 2016,
+      "endYear": 2020
+    },
+    "skills": {
+      "technical": [
+        "Django",
+        "Ruby",
+        "React",
+        "Docker",
+        "Google Cloud",
+        "Rust",
+        "Docker",
+        "Kubernetes",
+        "Redis",
+        "Angular",
+        "Linux"
+      ],
+      "soft": [
+        "Problem Solving",
+        "Time Management",
+        "Leadership",
+        "Negotiation",
+        "Teamwork",
+        "Creativity",
+        "Communication",
+        "Presentation Skills"
+      ]
+    },
+    "languages": [
+      {
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Fluent"
+      },
+      {
+        "name": "English",
+        "level": "Advanced"
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator (CKA)"
+    ]
+  },
+  {
+    "personalInfo": {
+      "name": "Lelia Frami",
+      "email": "Lelia.Frami@yahoo.com",
+      "phone": "+1 321 934 1648",
+      "address": "2597 Joannie Lake Apt. 437",
+      "city": "Fort Budfort",
+      "country": "Costa Rica",
+      "linkedin": "linkedin.com/in/Lelia_Frami63"
+    },
+    "summary": "Experienced software developer with expertise in modern web technologies and agile methodologies.",
+    "experience": [
+      {
+        "title": "System Administrator",
+        "company": "Howell - Price",
+        "startDate": "February 2020",
+        "endDate": "December 2022",
+        "description": "Troubleshot and resolved complex technical issues. Implemented scalable backend systems and database architectures. Implemented CI/CD pipelines and automated testing. Optimized application performance and user experience."
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Bergstrom, Paucek and Reynolds",
+        "startDate": "February 2019",
+        "endDate": "January 2020",
+        "description": "Mentored junior developers and conducted technical interviews. Implemented scalable backend systems and database architectures."
+      },
+      {
+        "title": "React Developer",
+        "company": "Swift, Leffler and Shields",
+        "startDate": "August 2019",
+        "endDate": "Present",
+        "description": "Performed database optimization and query tuning. Led cross-functional teams to deliver high-quality software solutions. Collaborated with stakeholders to define project requirements. Developed and maintained web applications using modern technologies."
+      },
+      {
+        "title": "Financial Analyst",
+        "company": "Feeney, Miller and Kovacek",
+        "startDate": "September 2016",
+        "endDate": "June 2017",
+        "description": "Created responsive user interfaces and interactive features. Mentored junior developers and conducted technical interviews."
+      }
+    ],
+    "education": {
+      "university": "Universidad Estatal a Distancia (UNED)",
+      "degree": "Physics",
+      "startYear": 2010,
+      "endYear": 2021
+    },
+    "skills": {
+      "technical": [
+        "MySQL",
+        "JavaScript",
+        "Azure",
+        "Docker",
+        "Jenkins",
+        "Vue.js",
+        "PostgreSQL",
+        "MongoDB",
+        "AWS"
+      ],
+      "soft": [
+        "Negotiation",
+        "Critical Thinking",
+        "Problem Solving",
+        "Teamwork",
+        "Emotional Intelligence",
+        "Communication",
+        "Creativity",
+        "Presentation Skills"
+      ]
+    },
+    "languages": [
+      {
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Catalan",
+        "level": "Intermediate"
+      },
+      {
+        "name": "French",
+        "level": "Basic"
+      }
+    ],
+    "certifications": [
+      "Cisco Certified Network Associate (CCNA)",
+      "Certified Scrum Master (CSM)",
+      "Google Cloud Professional"
+    ]
+  }
+]

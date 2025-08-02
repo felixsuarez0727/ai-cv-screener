@@ -16,8 +16,8 @@ dist/
 */dist/
 
 # Generated files
-cv-generator/generated-cvs/
-backend/data/
+
+backend
 chroma_db/
 
 # Logs
@@ -101,8 +101,7 @@ temp/
 ehthumbs.db
 Thumbs.db
 
-# PDF files (generated CVs)
-*.pdf
+
 
 # Database files
 *.db

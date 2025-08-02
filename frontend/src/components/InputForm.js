@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Send, Paperclip, X, Sparkles } from 'lucide-react';
+import { Send, X, Sparkles } from 'lucide-react';
 import { cn } from '../utils/cn';
 
 const InputForm = ({ onSendMessage, isLoading }) => {
@@ -132,15 +132,6 @@ const InputForm = ({ onSendMessage, isLoading }) => {
             whileTap={{ scale: 0.9 }}
           >
             <Sparkles className="h-4 w-4" />
-          </motion.button>
-          
-          <motion.button
-            type="button"
-            className="p-2 bg-secondary-100 text-secondary-600 hover:bg-primary-100 hover:text-primary-600 rounded-lg transition-all duration-200"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <Paperclip className="h-4 w-4" />
           </motion.button>
         </div>
 

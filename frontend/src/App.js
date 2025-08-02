@@ -11,6 +11,21 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [connectionAttempts, setConnectionAttempts] = useState(0);
   const [lastConnectionCheck, setLastConnectionCheck] = useState(null);
+  const [theme, setTheme] = useState('light');
+
+  // Load theme from localStorage on mount
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+    document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+  }, []);
+
+  // Save theme to localStorage and update document class
+  const handleThemeChange = (newTheme) => {
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    document.documentElement.classList.toggle('dark', newTheme === 'dark');
+  };
 
   const checkConnection = useCallback(async () => {
     try {
@@ -61,7 +76,12 @@ function App() {
 
   const LoadingScreen = () => (
     <motion.div 
-      className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 flex items-center justify-center"
+      className={cn(
+        "min-h-screen flex items-center justify-center",
+        theme === 'light' 
+          ? "bg-gradient-to-br from-primary-50 via-white to-secondary-50"
+          : "bg-gradient-to-br from-secondary-900 via-secondary-800 to-primary-900"
+      )}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -84,7 +104,10 @@ function App() {
         </motion.div>
         
         <motion.h2 
-          className="text-2xl font-bold text-secondary-900 mb-4"
+          className={cn(
+            "text-2xl font-bold mb-4",
+            theme === 'light' ? "text-secondary-900" : "text-white"
+          )}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -93,7 +116,10 @@ function App() {
         </motion.h2>
         
         <motion.p 
-          className="text-secondary-600 mb-6"
+          className={cn(
+            "mb-6",
+            theme === 'light' ? "text-secondary-600" : "text-secondary-300"
+          )}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
@@ -129,7 +155,12 @@ function App() {
 
   const ErrorScreen = () => (
     <motion.div 
-      className="min-h-screen bg-gradient-to-br from-error-50 via-white to-secondary-50 flex items-center justify-center px-4"
+      className={cn(
+        "min-h-screen flex items-center justify-center px-4",
+        theme === 'light'
+          ? "bg-gradient-to-br from-error-50 via-white to-secondary-50"
+          : "bg-gradient-to-br from-error-900 via-secondary-800 to-secondary-900"
+      )}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -157,24 +188,44 @@ function App() {
             </div>
           </motion.div>
           
-          <h2 className="text-2xl font-bold text-error-900 mb-4">
+          <h2 className={cn(
+            "text-2xl font-bold mb-4",
+            theme === 'light' ? "text-error-900" : "text-error-100"
+          )}>
             Connection Error
           </h2>
           
-          <p className="text-error-700 mb-6 leading-relaxed">
+          <p className={cn(
+            "mb-6 leading-relaxed",
+            theme === 'light' ? "text-error-700" : "text-error-300"
+          )}>
             Could not connect to the backend server. Make sure the server is running on port 3001.
           </p>
           
           <div className="space-y-4">
-            <div className="bg-white rounded-2xl p-4 shadow-soft border border-error-200">
+            <div className={cn(
+              "rounded-2xl p-4 shadow-soft border",
+              theme === 'light' 
+                ? "bg-white border-error-200" 
+                : "bg-secondary-800 border-error-700"
+            )}>
               <div className="flex items-center justify-between text-sm">
-                <span className="text-secondary-600">Connection attempts:</span>
-                <span className="font-semibold text-error-600">{connectionAttempts}</span>
+                <span className={theme === 'light' ? "text-secondary-600" : "text-secondary-400"}>
+                  Connection attempts:
+                </span>
+                <span className={cn(
+                  "font-semibold",
+                  theme === 'light' ? "text-error-600" : "text-error-400"
+                )}>
+                  {connectionAttempts}
+                </span>
               </div>
               {lastConnectionCheck && (
                 <div className="flex items-center justify-between text-sm mt-2">
-                  <span className="text-secondary-600">Last attempt:</span>
-                  <span className="text-secondary-500">
+                  <span className={theme === 'light' ? "text-secondary-600" : "text-secondary-400"}>
+                    Last attempt:
+                  </span>
+                  <span className={theme === 'light' ? "text-secondary-500" : "text-secondary-500"}>
                     {lastConnectionCheck.toLocaleTimeString()}
                   </span>
                 </div>
@@ -191,7 +242,10 @@ function App() {
               <span>Retry Connection</span>
             </motion.button>
             
-            <div className="text-xs text-secondary-500 space-y-1">
+            <div className={cn(
+              "text-xs space-y-1",
+              theme === 'light' ? "text-secondary-500" : "text-secondary-400"
+            )}>
               <p>• Verify that the backend server is running</p>
               <p>• Check that port 3001 is available</p>
               <p>• Review server logs for more details</p>
@@ -203,17 +257,22 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-secondary-50 via-white to-primary-50">
+    <div className={cn(
+      "min-h-screen",
+      theme === 'light' 
+        ? "bg-gradient-to-br from-secondary-50 via-white to-primary-50"
+        : "bg-gradient-to-br from-secondary-900 via-secondary-800 to-primary-900"
+    )}>
       <Toaster
         position="top-right"
         toastOptions={{
           duration: 4000,
           style: {
-            background: '#fff',
-            color: '#374151',
+            background: theme === 'light' ? '#fff' : '#1f2937',
+            color: theme === 'light' ? '#374151' : '#f9fafb',
             borderRadius: '12px',
             boxShadow: '0 10px 40px -10px rgba(0, 0, 0, 0.15)',
-            border: '1px solid #e5e7eb',
+            border: theme === 'light' ? '1px solid #e5e7eb' : '1px solid #374151',
           },
           success: {
             iconTheme: {
@@ -243,15 +302,24 @@ function App() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <Header isConnected={isConnected} />
+            <Header 
+              isConnected={isConnected} 
+              theme={theme} 
+              onThemeChange={handleThemeChange}
+            />
             <main className="container mx-auto px-4 py-8">
-              <ChatInterface />
+              <ChatInterface theme={theme} />
             </main>
           </motion.div>
         )}
       </AnimatePresence>
     </div>
   );
+}
+
+// Helper function for conditional classes
+function cn(...classes) {
+  return classes.filter(Boolean).join(' ');
 }
 
 export default App; 
